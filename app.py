@@ -143,6 +143,24 @@ DEFAULT_SEX = "Female"
 DEFAULT_YEAR = YEAR_MAX
 DEFAULT_COUNTRY = "India" if "India" in ALL_COUNTRIES else ALL_COUNTRIES[0]
 
+
+def nearest_available_year(available_years, year):
+    """
+    Given a pandas Series/array of years that actually have data for some
+    indicator (+sex) slice, return the closest year to the requested one.
+    Returns None if no years are available at all.
+
+    Several indicator families are only reported through an earlier year
+    than others (hypertension currently ends in 2019, diabetes in 2022),
+    but the global year slider spans the full combined range. This keeps
+    every tab from crashing/going blank when that mismatch is hit.
+    """
+    if len(available_years) == 0:
+        return None
+    if year in set(available_years):
+        return int(year)
+    return int(min(available_years, key=lambda y: abs(y - year)))
+
 PREFERRED_COMPARISON_COUNTRIES = [
     "India", "China", "Brazil", "United States of America", "Japan",
 ]
@@ -543,12 +561,11 @@ def update_map(filters):
     available_years = map_df.loc[
         (map_df["indicator_code"] == indicator) & (map_df["sex"] == sex), "year"
     ]
-    if available_years.empty:
+    resolved_year = nearest_available_year(available_years, year)
+    if resolved_year is None:
         msg = f"No data available for {INDICATOR_LABELS[indicator]} ({sex})."
         return empty_selection_placeholder(msg), msg
-
-    if year not in available_years.values:
-        year = int(min(available_years, key=lambda y: abs(y - year)))
+    year = resolved_year
 
     fig = create_global_map(
         df=map_df,
@@ -601,8 +618,9 @@ LEVEL_CONFIG = {
     Output("trend-entities", "value"),
     Input("trend-level", "value"),
     Input("global-filters", "data"),
+    State("trend-entities", "value"),
 )
-def update_trend_entity_options(level, filters):
+def update_trend_entity_options(level, filters, current_selection):
     cfg = LEVEL_CONFIG[level]
     col = cfg["entity_column"]
     df = cfg["df"]
@@ -623,15 +641,28 @@ def update_trend_entity_options(level, filters):
     options_pool = sorted(subset[col].dropna().unique())
     options = [{"label": o, "value": o} for o in options_pool]
 
-    if level == "country":
-        default = [c for c in PREFERRED_COMPARISON_COUNTRIES if c in options_pool]
-        if filters["country"] in options_pool and filters["country"] not in default:
-            default = [filters["country"]] + default
-        default = default[:5] or options_pool[:3]
-    else:
-        default = options_pool[:4]
+    def default_selection():
+        if level == "country":
+            picks = [c for c in PREFERRED_COMPARISON_COUNTRIES if c in options_pool]
+            if filters["country"] in options_pool and filters["country"] not in picks:
+                picks = [filters["country"]] + picks
+            return picks[:5] or options_pool[:3]
+        return options_pool[:4]
 
-    return options, default
+    # Only reset to the default list when the comparison level itself
+    # changes (or on first load, where there's no prior selection yet).
+    # A change to year/indicator/sex via the global filter bar should
+    # preserve what the user already picked, dropping only entities that
+    # are no longer valid for the new selection rather than wiping it out.
+    triggered = callback_context.triggered_id
+    if triggered == "trend-level" or not current_selection:
+        selection = default_selection()
+    else:
+        selection = [e for e in current_selection if e in options_pool]
+        if not selection:
+            selection = default_selection()
+
+    return options, selection
 
 
 @app.callback(
@@ -720,12 +751,11 @@ def update_region_income(filters):
     available_years = region_income_df.loc[
         region_income_df["indicator_code"] == indicator, "year"
     ]
-    if available_years.empty:
+    resolved_year = nearest_available_year(available_years, year)
+    if resolved_year is None:
         msg = f"No data available for {INDICATOR_LABELS[indicator]}."
         return empty_selection_placeholder(msg), msg
-
-    if year not in available_years.values:
-        year = int(min(available_years, key=lambda y: abs(y - year)))
+    year = resolved_year
 
     fig = create_regional_income_comparison(
         df=region_income_df, indicator=indicator, year=year,
@@ -745,26 +775,48 @@ def update_region_income(filters):
     Output("age-crude-countries", "value"),
     Input("age-crude-family", "value"),
     Input("global-filters", "data"),
+    State("age-crude-countries", "value"),
 )
-def update_age_crude_options(family, filters):
+def update_age_crude_options(family, filters, current_selection):
     cfg = {
         "diabetes_treatment": ("diab_tx_crude", "diab_tx_std"),
         "hypertension_treatment": ("htn_tx_crude", "htn_tx_std"),
         "hypertension_control": ("htn_ctrl_crude", "htn_ctrl_std"),
     }[family]
     crude_col, std_col = cfg
-    subset = trend_country_df[
-        (trend_country_df["year"] == filters["year"])
-        & (trend_country_df["sex"] == filters["sex"])
-    ].dropna(subset=[crude_col, std_col])
+
+    # Hypertension families are only reported through 2019 in this file
+    # while diabetes runs through 2022, but the global year slider spans
+    # the full combined range. Resolve to the nearest year that actually
+    # has data for this family/sex before building the country pool.
+    sex_subset = trend_country_df[trend_country_df["sex"] == filters["sex"]]
+    available_years = sex_subset.dropna(subset=[crude_col, std_col])["year"]
+    year = nearest_available_year(available_years, filters["year"])
+    if year is None:
+        return [], []
+
+    subset = sex_subset[sex_subset["year"] == year].dropna(subset=[crude_col, std_col])
     pool = sorted(subset["country"].unique())
     options = [{"label": c, "value": c} for c in pool]
 
-    default = [c for c in PREFERRED_COMPARISON_COUNTRIES if c in pool]
-    if filters["country"] not in default and filters["country"] in pool:
-        default = [filters["country"]] + default
-    default = default[:5] or pool[:5]
-    return options, default
+    def default_selection():
+        picks = [c for c in PREFERRED_COMPARISON_COUNTRIES if c in pool]
+        if filters["country"] not in picks and filters["country"] in pool:
+            picks = [filters["country"]] + picks
+        return picks[:5] or pool[:5]
+
+    # Countries stay countries no matter which indicator family is picked,
+    # so preserve the user's existing selection across a family change too
+    # (dropping only countries with no data for the new family). Only fall
+    # back to the default list on first load, when there's nothing to keep.
+    if not current_selection:
+        selection = default_selection()
+    else:
+        selection = [c for c in current_selection if c in pool]
+        if not selection:
+            selection = default_selection()
+
+    return options, selection
 
 
 @app.callback(
@@ -781,15 +833,33 @@ def update_age_crude(family, countries, filters):
         note = "Select at least one country to compare."
         return empty_selection_placeholder(note, height=560), note
 
+    cfg = {
+        "diabetes_treatment": ("diab_tx_crude", "diab_tx_std"),
+        "hypertension_treatment": ("htn_tx_crude", "htn_tx_std"),
+        "hypertension_control": ("htn_ctrl_crude", "htn_ctrl_std"),
+    }[family]
+    crude_col, std_col = cfg
+
+    # Resolve to the same nearest-available year that
+    # update_age_crude_options used to populate the country dropdown.
+    sex_subset = trend_country_df[trend_country_df["sex"] == filters["sex"]]
+    available_years = sex_subset.dropna(subset=[crude_col, std_col])["year"]
+    year = nearest_available_year(available_years, filters["year"])
+    if year is None:
+        note = f"No data available for {INDICATOR_FAMILY_LABELS[family]}."
+        return empty_selection_placeholder(note, height=560), note
+
     fig = create_age_standardized_crude_chart(
         df=trend_country_df,
         indicator_family=family,
-        year=filters["year"],
+        year=year,
         sex=filters["sex"],
         countries=countries,
     )
-    note = (f"{INDICATOR_FAMILY_LABELS[family]} · {filters['sex']} · {filters['year']} · "
+    note = (f"{INDICATOR_FAMILY_LABELS[family]} · {filters['sex']} · {year} · "
             f"{', '.join(countries)}")
+    if year != filters["year"]:
+        note += f" (no {filters['year']} data for this indicator; showing nearest year)"
     return fig, note
 
 
