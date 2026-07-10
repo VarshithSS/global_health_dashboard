@@ -261,7 +261,7 @@ def filter_bar():
                         value=DEFAULT_YEAR,
                         marks=YEAR_MARKS,
                         tooltip={"placement": "bottom", "always_visible": False},
-                        updatemode="mouseup",
+                        updatemode="drag",
                     ),
                 ],
                 style={"flex": "3", "minWidth": "320px", "paddingTop": "2px"},
@@ -506,6 +506,13 @@ def sync_global_filters(indicator, sex, country, year, map_click, current):
         match = map_df.loc[map_df["iso3"] == clicked_iso3, "country"]
         if not match.empty:
             country = match.iloc[0]
+
+    # With updatemode="drag", the slider can briefly report year=None while
+    # its number field is being cleared/retyped (e.g. deleting "2019" before
+    # typing "2003"). Keep the last known-good year instead of crashing;
+    # the callback fires again with the real value as soon as typing finishes.
+    if year is None:
+        year = (current or {}).get("year", DEFAULT_YEAR)
 
     new_state = {
         "indicator": indicator,
