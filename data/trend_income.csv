@@ -1,0 +1,931 @@
+income_group,year,indicator_code,avg_value
+High-income,1990,diab_tx_crude,38.23656558064516
+High-income,1990,diab_tx_std,38.501312500000004
+High-income,1990,htn_ctrl_crude,6.414516129032258
+High-income,1990,htn_ctrl_std,6.508870967741935
+High-income,1990,htn_tx_crude,27.304032258064513
+High-income,1990,htn_tx_std,27.254032258064516
+High-income,1991,diab_tx_crude,38.68538756451613
+High-income,1991,diab_tx_std,38.976865258064514
+High-income,1991,htn_ctrl_crude,6.645967741935484
+High-income,1991,htn_ctrl_std,6.741935483870968
+High-income,1991,htn_tx_crude,28.12258064516129
+High-income,1991,htn_tx_std,28.092741935483872
+High-income,1992,diab_tx_crude,39.158725056451615
+High-income,1992,diab_tx_std,39.472132903225805
+High-income,1992,htn_ctrl_crude,6.921774193548386
+High-income,1992,htn_ctrl_std,7.020161290322581
+High-income,1992,htn_tx_crude,28.966129032258067
+High-income,1992,htn_tx_std,28.97741935483871
+High-income,1993,diab_tx_crude,39.64698299193548
+High-income,1993,diab_tx_std,39.98625677419355
+High-income,1993,htn_ctrl_crude,7.259677419354839
+High-income,1993,htn_ctrl_std,7.361290322580645
+High-income,1993,htn_tx_crude,29.87258064516129
+High-income,1993,htn_tx_std,29.898387096774194
+High-income,1994,diab_tx_crude,40.141008758064515
+High-income,1994,diab_tx_std,40.518396669354836
+High-income,1994,htn_ctrl_crude,7.679032258064517
+High-income,1994,htn_ctrl_std,7.781451612903226
+High-income,1994,htn_tx_crude,30.83951612903226
+High-income,1994,htn_tx_std,30.876612903225805
+High-income,1995,diab_tx_crude,40.66047211290323
+High-income,1995,diab_tx_std,41.07109326612903
+High-income,1995,htn_ctrl_crude,8.17258064516129
+High-income,1995,htn_ctrl_std,8.275806451612903
+High-income,1995,htn_tx_crude,31.864516129032257
+High-income,1995,htn_tx_std,31.898387096774194
+High-income,1996,diab_tx_crude,41.22947904032258
+High-income,1996,diab_tx_std,41.64713887903226
+High-income,1996,htn_ctrl_crude,8.74758064516129
+High-income,1996,htn_ctrl_std,8.854032258064517
+High-income,1996,htn_tx_crude,32.94435483870968
+High-income,1996,htn_tx_std,32.95645161290322
+High-income,1997,diab_tx_crude,41.83869910483871
+High-income,1997,diab_tx_std,42.24585337903226
+High-income,1997,htn_ctrl_crude,9.393548387096773
+High-income,1997,htn_ctrl_std,9.491935483870968
+High-income,1997,htn_tx_crude,34.07419354838709
+High-income,1997,htn_tx_std,34.05806451612903
+High-income,1998,diab_tx_crude,42.47096984677419
+High-income,1998,diab_tx_std,42.86520772580645
+High-income,1998,htn_ctrl_crude,10.095967741935485
+High-income,1998,htn_ctrl_std,10.189516129032258
+High-income,1998,htn_tx_crude,35.24516129032258
+High-income,1998,htn_tx_std,35.181451612903224
+High-income,1999,diab_tx_crude,43.12538766129032
+High-income,1999,diab_tx_std,43.50674783064516
+High-income,1999,htn_ctrl_crude,10.84758064516129
+High-income,1999,htn_ctrl_std,10.939516129032258
+High-income,1999,htn_tx_crude,36.435483870967744
+High-income,1999,htn_tx_std,36.332258064516125
+High-income,2000,diab_tx_crude,43.79968159677419
+High-income,2000,diab_tx_std,44.166869008064516
+High-income,2000,htn_ctrl_crude,11.667741935483871
+High-income,2000,htn_ctrl_std,11.749193548387098
+High-income,2000,htn_tx_crude,37.65161290322581
+High-income,2000,htn_tx_std,37.51209677419355
+High-income,2001,diab_tx_crude,44.5006295
+High-income,2001,diab_tx_std,44.84650322580645
+High-income,2001,htn_ctrl_crude,12.55967741935484
+High-income,2001,htn_ctrl_std,12.637096774193548
+High-income,2001,htn_tx_crude,38.903225806451616
+High-income,2001,htn_tx_std,38.73790322580645
+High-income,2002,diab_tx_crude,45.22602625806452
+High-income,2002,diab_tx_std,45.544576387096775
+High-income,2002,htn_ctrl_crude,13.537096774193548
+High-income,2002,htn_ctrl_std,13.605645161290322
+High-income,2002,htn_tx_crude,40.18387096774194
+High-income,2002,htn_tx_std,40.00645161290323
+High-income,2003,diab_tx_crude,45.96806319354839
+High-income,2003,diab_tx_std,46.25775390322581
+High-income,2003,htn_ctrl_crude,14.603225806451613
+High-income,2003,htn_ctrl_std,14.662903225806453
+High-income,2003,htn_tx_crude,41.498387096774195
+High-income,2003,htn_tx_std,41.3016129032258
+High-income,2004,diab_tx_crude,46.71677512096774
+High-income,2004,diab_tx_std,46.97608180645162
+High-income,2004,htn_ctrl_crude,15.761290322580646
+High-income,2004,htn_ctrl_std,15.800806451612903
+High-income,2004,htn_tx_crude,42.83870967741935
+High-income,2004,htn_tx_std,42.605645161290326
+High-income,2005,diab_tx_crude,47.46799200806452
+High-income,2005,diab_tx_std,47.69532369354838
+High-income,2005,htn_ctrl_crude,16.956451612903226
+High-income,2005,htn_ctrl_std,16.993548387096773
+High-income,2005,htn_tx_crude,44.14354838709678
+High-income,2005,htn_tx_std,43.887903225806454
+High-income,2006,diab_tx_crude,48.20932049193548
+High-income,2006,diab_tx_std,48.40623587096774
+High-income,2006,htn_ctrl_crude,18.17016129032258
+High-income,2006,htn_ctrl_std,18.188709677419357
+High-income,2006,htn_tx_crude,45.38145161290323
+High-income,2006,htn_tx_std,45.086290322580645
+High-income,2007,diab_tx_crude,48.937240241935484
+High-income,2007,diab_tx_std,49.10924581451613
+High-income,2007,htn_ctrl_crude,19.36048387096774
+High-income,2007,htn_ctrl_std,19.35725806451613
+High-income,2007,htn_tx_crude,46.53548387096774
+High-income,2007,htn_tx_std,46.20887096774193
+High-income,2008,diab_tx_crude,49.66393385483871
+High-income,2008,diab_tx_std,49.808266604838714
+High-income,2008,htn_ctrl_crude,20.50483870967742
+High-income,2008,htn_ctrl_std,20.48709677419355
+High-income,2008,htn_tx_crude,47.61370967741936
+High-income,2008,htn_tx_std,47.229032258064514
+High-income,2009,diab_tx_crude,50.40197589516129
+High-income,2009,diab_tx_std,50.50760175
+High-income,2009,htn_ctrl_crude,21.596774193548388
+High-income,2009,htn_ctrl_std,21.54516129032258
+High-income,2009,htn_tx_crude,48.605645161290326
+High-income,2009,htn_tx_std,48.156451612903226
+High-income,2010,diab_tx_crude,51.1436224516129
+High-income,2010,diab_tx_std,51.20450087903226
+High-income,2010,htn_ctrl_crude,22.64758064516129
+High-income,2010,htn_ctrl_std,22.57177419354839
+High-income,2010,htn_tx_crude,49.527419354838706
+High-income,2010,htn_tx_std,49.002419354838715
+High-income,2011,diab_tx_crude,51.884962104838706
+High-income,2011,diab_tx_std,51.89565552419354
+High-income,2011,htn_ctrl_crude,23.64516129032258
+High-income,2011,htn_ctrl_std,23.53467741935484
+High-income,2011,htn_tx_crude,50.37096774193548
+High-income,2011,htn_tx_std,49.755645161290325
+High-income,2012,diab_tx_crude,52.62538004032258
+High-income,2012,diab_tx_std,52.575070370967744
+High-income,2012,htn_ctrl_crude,24.593548387096774
+High-income,2012,htn_ctrl_std,24.445967741935487
+High-income,2012,htn_tx_crude,51.14274193548387
+High-income,2012,htn_tx_std,50.416935483870965
+High-income,2013,diab_tx_crude,53.35805133064516
+High-income,2013,diab_tx_std,53.23518054838709
+High-income,2013,htn_ctrl_crude,25.475
+High-income,2013,htn_ctrl_std,25.28306451612903
+High-income,2013,htn_tx_crude,51.818548387096776
+High-income,2013,htn_tx_std,50.983870967741936
+High-income,2014,diab_tx_crude,54.07093985483871
+High-income,2014,diab_tx_std,53.87004955645162
+High-income,2014,htn_ctrl_crude,26.28790322580645
+High-income,2014,htn_ctrl_std,26.038709677419355
+High-income,2014,htn_tx_crude,52.425
+High-income,2014,htn_tx_std,51.45967741935484
+High-income,2015,diab_tx_crude,54.75269387903226
+High-income,2015,diab_tx_std,54.47567441935484
+High-income,2015,htn_ctrl_crude,27.019354838709678
+High-income,2015,htn_ctrl_std,26.708064516129035
+High-income,2015,htn_tx_crude,52.961290322580645
+High-income,2015,htn_tx_std,51.855645161290326
+High-income,2016,diab_tx_crude,55.40647688709677
+High-income,2016,diab_tx_std,55.049405951612904
+High-income,2016,htn_ctrl_crude,27.713709677419356
+High-income,2016,htn_ctrl_std,27.338709677419356
+High-income,2016,htn_tx_crude,53.472580645161294
+High-income,2016,htn_tx_std,52.21935483870968
+High-income,2017,diab_tx_crude,56.04004188709678
+High-income,2017,diab_tx_std,55.59530785483871
+High-income,2017,htn_ctrl_crude,28.33467741935484
+High-income,2017,htn_ctrl_std,27.893548387096775
+High-income,2017,htn_tx_crude,53.90887096774193
+High-income,2017,htn_tx_std,52.49354838709677
+High-income,2018,diab_tx_crude,56.64921791935484
+High-income,2018,diab_tx_std,56.11897913709678
+High-income,2018,htn_ctrl_crude,29.00725806451613
+High-income,2018,htn_ctrl_std,28.48467741935484
+High-income,2018,htn_tx_crude,54.346774193548384
+High-income,2018,htn_tx_std,52.76451612903226
+High-income,2019,diab_tx_crude,57.245506709677414
+High-income,2019,diab_tx_std,56.62547574193549
+High-income,2019,htn_ctrl_crude,29.716129032258067
+High-income,2019,htn_ctrl_std,29.104032258064517
+High-income,2019,htn_tx_crude,54.77903225806452
+High-income,2019,htn_tx_std,53.020161290322584
+High-income,2020,diab_tx_crude,57.83913212096774
+High-income,2020,diab_tx_std,57.11804905645161
+High-income,2021,diab_tx_crude,58.38568225806451
+High-income,2021,diab_tx_std,57.59734913709677
+High-income,2022,diab_tx_crude,58.8988610967742
+High-income,2022,diab_tx_std,58.058960887096774
+Low-income,1990,diab_tx_crude,17.435884446
+Low-income,1990,diab_tx_std,18.056702127999998
+Low-income,1990,htn_ctrl_crude,2.154
+Low-income,1990,htn_ctrl_std,2.104
+Low-income,1990,htn_tx_crude,8.677999999999999
+Low-income,1990,htn_tx_std,9.017999999999999
+Low-income,1991,diab_tx_crude,17.46881248
+Low-income,1991,diab_tx_std,18.118152566
+Low-income,1991,htn_ctrl_crude,2.14
+Low-income,1991,htn_ctrl_std,2.076
+Low-income,1991,htn_tx_crude,8.87
+Low-income,1991,htn_tx_std,9.236
+Low-income,1992,diab_tx_crude,17.50758105
+Low-income,1992,diab_tx_std,18.19012089
+Low-income,1992,htn_ctrl_crude,2.142
+Low-income,1992,htn_ctrl_std,2.09
+Low-income,1992,htn_tx_crude,9.1
+Low-income,1992,htn_tx_std,9.502
+Low-income,1993,diab_tx_crude,17.561465104
+Low-income,1993,diab_tx_std,18.271674412
+Low-income,1993,htn_ctrl_crude,2.164
+Low-income,1993,htn_ctrl_std,2.1180000000000003
+Low-income,1993,htn_tx_crude,9.356
+Low-income,1993,htn_tx_std,9.774
+Low-income,1994,diab_tx_crude,17.613925853999998
+Low-income,1994,diab_tx_std,18.361900778
+Low-income,1994,htn_ctrl_crude,2.202
+Low-income,1994,htn_ctrl_std,2.166
+Low-income,1994,htn_tx_crude,9.644
+Low-income,1994,htn_tx_std,10.094
+Low-income,1995,diab_tx_crude,17.659697532
+Low-income,1995,diab_tx_std,18.460842554
+Low-income,1995,htn_ctrl_crude,2.274
+Low-income,1995,htn_ctrl_std,2.24
+Low-income,1995,htn_tx_crude,9.954
+Low-income,1995,htn_tx_std,10.412
+Low-income,1996,diab_tx_crude,17.72837033
+Low-income,1996,diab_tx_std,18.566577412
+Low-income,1996,htn_ctrl_crude,2.3480000000000003
+Low-income,1996,htn_ctrl_std,2.3280000000000003
+Low-income,1996,htn_tx_crude,10.28
+Low-income,1996,htn_tx_std,10.784
+Low-income,1997,diab_tx_crude,17.809922654
+Low-income,1997,diab_tx_std,18.679027182
+Low-income,1997,htn_ctrl_crude,2.458
+Low-income,1997,htn_ctrl_std,2.44
+Low-income,1997,htn_tx_crude,10.63
+Low-income,1997,htn_tx_std,11.174000000000001
+Low-income,1998,diab_tx_crude,17.892854806
+Low-income,1998,diab_tx_std,18.797816676
+Low-income,1998,htn_ctrl_crude,2.576
+Low-income,1998,htn_ctrl_std,2.5580000000000003
+Low-income,1998,htn_tx_crude,11.0
+Low-income,1998,htn_tx_std,11.592
+Low-income,1999,diab_tx_crude,17.98118152
+Low-income,1999,diab_tx_std,18.923040478
+Low-income,1999,htn_ctrl_crude,2.7119999999999997
+Low-income,1999,htn_ctrl_std,2.71
+Low-income,1999,htn_tx_crude,11.404000000000002
+Low-income,1999,htn_tx_std,12.042
+Low-income,2000,diab_tx_crude,18.07861324
+Low-income,2000,diab_tx_std,19.054302824
+Low-income,2000,htn_ctrl_crude,2.862
+Low-income,2000,htn_ctrl_std,2.864
+Low-income,2000,htn_tx_crude,11.84
+Low-income,2000,htn_tx_std,12.508
+Low-income,2001,diab_tx_crude,18.181649158
+Low-income,2001,diab_tx_std,19.192860242
+Low-income,2001,htn_ctrl_crude,3.034
+Low-income,2001,htn_ctrl_std,3.052
+Low-income,2001,htn_tx_crude,12.306
+Low-income,2001,htn_tx_std,13.022
+Low-income,2002,diab_tx_crude,18.289068392
+Low-income,2002,diab_tx_std,19.337776764
+Low-income,2002,htn_ctrl_crude,3.2319999999999998
+Low-income,2002,htn_ctrl_std,3.262
+Low-income,2002,htn_tx_crude,12.808
+Low-income,2002,htn_tx_std,13.584000000000001
+Low-income,2003,diab_tx_crude,18.401386462
+Low-income,2003,diab_tx_std,19.489620194
+Low-income,2003,htn_ctrl_crude,3.466
+Low-income,2003,htn_ctrl_std,3.492
+Low-income,2003,htn_tx_crude,13.332
+Low-income,2003,htn_tx_std,14.177999999999999
+Low-income,2004,diab_tx_crude,18.518287846
+Low-income,2004,diab_tx_std,19.646371074
+Low-income,2004,htn_ctrl_crude,3.7119999999999997
+Low-income,2004,htn_ctrl_std,3.758
+Low-income,2004,htn_tx_crude,13.902000000000001
+Low-income,2004,htn_tx_std,14.8
+Low-income,2005,diab_tx_crude,18.64224291
+Low-income,2005,diab_tx_std,19.805409516
+Low-income,2005,htn_ctrl_crude,3.992
+Low-income,2005,htn_ctrl_std,4.046
+Low-income,2005,htn_tx_crude,14.492
+Low-income,2005,htn_tx_std,15.442
+Low-income,2006,diab_tx_crude,18.765874386
+Low-income,2006,diab_tx_std,19.964410238
+Low-income,2006,htn_ctrl_crude,4.282
+Low-income,2006,htn_ctrl_std,4.3580000000000005
+Low-income,2006,htn_tx_crude,15.074000000000002
+Low-income,2006,htn_tx_std,16.088
+Low-income,2007,diab_tx_crude,18.887494684
+Low-income,2007,diab_tx_std,20.123850328
+Low-income,2007,htn_ctrl_crude,4.592
+Low-income,2007,htn_ctrl_std,4.69
+Low-income,2007,htn_tx_crude,15.662
+Low-income,2007,htn_tx_std,16.748
+Low-income,2008,diab_tx_crude,19.011406404
+Low-income,2008,diab_tx_std,20.284207022
+Low-income,2008,htn_ctrl_crude,4.9239999999999995
+Low-income,2008,htn_ctrl_std,5.044
+Low-income,2008,htn_tx_crude,16.252
+Low-income,2008,htn_tx_std,17.408
+Low-income,2009,diab_tx_crude,19.139482522
+Low-income,2009,diab_tx_std,20.450482694
+Low-income,2009,htn_ctrl_crude,5.2620000000000005
+Low-income,2009,htn_ctrl_std,5.41
+Low-income,2009,htn_tx_crude,16.85
+Low-income,2009,htn_tx_std,18.066
+Low-income,2010,diab_tx_crude,19.274910582
+Low-income,2010,diab_tx_std,20.623235436
+Low-income,2010,htn_ctrl_crude,5.636
+Low-income,2010,htn_ctrl_std,5.808
+Low-income,2010,htn_tx_crude,17.46
+Low-income,2010,htn_tx_std,18.748
+Low-income,2011,diab_tx_crude,19.418402008
+Low-income,2011,diab_tx_std,20.800293919999998
+Low-income,2011,htn_ctrl_crude,6.034
+Low-income,2011,htn_ctrl_std,6.226
+Low-income,2011,htn_tx_crude,18.064
+Low-income,2011,htn_tx_std,19.42
+Low-income,2012,diab_tx_crude,19.572008298
+Low-income,2012,diab_tx_std,20.980264658
+Low-income,2012,htn_ctrl_crude,6.45
+Low-income,2012,htn_ctrl_std,6.68
+Low-income,2012,htn_tx_crude,18.672
+Low-income,2012,htn_tx_std,20.102
+Low-income,2013,diab_tx_crude,19.738944324
+Low-income,2013,diab_tx_std,21.16069696
+Low-income,2013,htn_ctrl_crude,6.872000000000001
+Low-income,2013,htn_ctrl_std,7.1579999999999995
+Low-income,2013,htn_tx_crude,19.28
+Low-income,2013,htn_tx_std,20.784000000000002
+Low-income,2014,diab_tx_crude,19.911901135999997
+Low-income,2014,diab_tx_std,21.338688052000002
+Low-income,2014,htn_ctrl_crude,7.334
+Low-income,2014,htn_ctrl_std,7.654
+Low-income,2014,htn_tx_crude,19.894000000000002
+Low-income,2014,htn_tx_std,21.468000000000004
+Low-income,2015,diab_tx_crude,20.082117554
+Low-income,2015,diab_tx_std,21.512847308
+Low-income,2015,htn_ctrl_crude,7.81
+Low-income,2015,htn_ctrl_std,8.166
+Low-income,2015,htn_tx_crude,20.51
+Low-income,2015,htn_tx_std,22.15
+Low-income,2016,diab_tx_crude,20.243854592
+Low-income,2016,diab_tx_std,21.682895795999997
+Low-income,2016,htn_ctrl_crude,8.306000000000001
+Low-income,2016,htn_ctrl_std,8.71
+Low-income,2016,htn_tx_crude,21.14
+Low-income,2016,htn_tx_std,22.868000000000002
+Low-income,2017,diab_tx_crude,20.405853238
+Low-income,2017,diab_tx_std,21.852518712000002
+Low-income,2017,htn_ctrl_crude,8.826
+Low-income,2017,htn_ctrl_std,9.28
+Low-income,2017,htn_tx_crude,21.76
+Low-income,2017,htn_tx_std,23.572
+Low-income,2018,diab_tx_crude,20.570210355999997
+Low-income,2018,diab_tx_std,22.027651402
+Low-income,2018,htn_ctrl_crude,9.414
+Low-income,2018,htn_ctrl_std,9.918
+Low-income,2018,htn_tx_crude,22.416
+Low-income,2018,htn_tx_std,24.29
+Low-income,2019,diab_tx_crude,20.73905619
+Low-income,2019,diab_tx_std,22.213109602
+Low-income,2019,htn_ctrl_crude,10.056000000000001
+Low-income,2019,htn_ctrl_std,10.626
+Low-income,2019,htn_tx_crude,23.098000000000003
+Low-income,2019,htn_tx_std,25.044
+Low-income,2020,diab_tx_crude,20.918140456
+Low-income,2020,diab_tx_std,22.409936032
+Low-income,2021,diab_tx_crude,21.111976148
+Low-income,2021,diab_tx_std,22.62051936
+Low-income,2022,diab_tx_crude,21.31720451
+Low-income,2022,diab_tx_std,22.844154208
+Lower-middle-income,1990,diab_tx_crude,21.515012486
+Lower-middle-income,1990,diab_tx_std,22.129701853
+Lower-middle-income,1990,htn_ctrl_crude,3.4560000000000004
+Lower-middle-income,1990,htn_ctrl_std,3.398
+Lower-middle-income,1990,htn_tx_crude,13.405999999999999
+Lower-middle-income,1990,htn_tx_std,13.801000000000002
+Lower-middle-income,1991,diab_tx_crude,21.596451026
+Lower-middle-income,1991,diab_tx_std,22.265934114
+Lower-middle-income,1991,htn_ctrl_crude,3.472
+Lower-middle-income,1991,htn_ctrl_std,3.415
+Lower-middle-income,1991,htn_tx_crude,13.703
+Lower-middle-income,1991,htn_tx_std,14.144
+Lower-middle-income,1992,diab_tx_crude,21.690682375
+Lower-middle-income,1992,diab_tx_std,22.411789038000002
+Lower-middle-income,1992,htn_ctrl_crude,3.516
+Lower-middle-income,1992,htn_ctrl_std,3.457
+Lower-middle-income,1992,htn_tx_crude,14.026
+Lower-middle-income,1992,htn_tx_std,14.52
+Lower-middle-income,1993,diab_tx_crude,21.792526437000003
+Lower-middle-income,1993,diab_tx_std,22.566449818000002
+Lower-middle-income,1993,htn_ctrl_crude,3.588
+Lower-middle-income,1993,htn_ctrl_std,3.534
+Lower-middle-income,1993,htn_tx_crude,14.375
+Lower-middle-income,1993,htn_tx_std,14.932
+Lower-middle-income,1994,diab_tx_crude,21.904426742000002
+Lower-middle-income,1994,diab_tx_std,22.728260810000002
+Lower-middle-income,1994,htn_ctrl_crude,3.681
+Lower-middle-income,1994,htn_ctrl_std,3.64
+Lower-middle-income,1994,htn_tx_crude,14.765999999999998
+Lower-middle-income,1994,htn_tx_std,15.368
+Lower-middle-income,1995,diab_tx_crude,22.026263593
+Lower-middle-income,1995,diab_tx_std,22.896540053
+Lower-middle-income,1995,htn_ctrl_crude,3.81
+Lower-middle-income,1995,htn_ctrl_std,3.7739999999999996
+Lower-middle-income,1995,htn_tx_crude,15.183
+Lower-middle-income,1995,htn_tx_std,15.845999999999998
+Lower-middle-income,1996,diab_tx_crude,22.154504273
+Lower-middle-income,1996,diab_tx_std,23.071058066
+Lower-middle-income,1996,htn_ctrl_crude,3.972
+Lower-middle-income,1996,htn_ctrl_std,3.947
+Lower-middle-income,1996,htn_tx_crude,15.640999999999998
+Lower-middle-income,1996,htn_tx_std,16.349
+Lower-middle-income,1997,diab_tx_crude,22.290983646
+Lower-middle-income,1997,diab_tx_std,23.251668162999998
+Lower-middle-income,1997,htn_ctrl_crude,4.155
+Lower-middle-income,1997,htn_ctrl_std,4.135
+Lower-middle-income,1997,htn_tx_crude,16.125999999999998
+Lower-middle-income,1997,htn_tx_std,16.894000000000002
+Lower-middle-income,1998,diab_tx_crude,22.430898944
+Lower-middle-income,1998,diab_tx_std,23.43687639
+Lower-middle-income,1998,htn_ctrl_crude,4.362
+Lower-middle-income,1998,htn_ctrl_std,4.343999999999999
+Lower-middle-income,1998,htn_tx_crude,16.65
+Lower-middle-income,1998,htn_tx_std,17.472
+Lower-middle-income,1999,diab_tx_crude,22.577415300000002
+Lower-middle-income,1999,diab_tx_std,23.627220159
+Lower-middle-income,1999,htn_ctrl_crude,4.593
+Lower-middle-income,1999,htn_ctrl_std,4.6
+Lower-middle-income,1999,htn_tx_crude,17.21
+Lower-middle-income,1999,htn_tx_std,18.087
+Lower-middle-income,2000,diab_tx_crude,22.732962929
+Lower-middle-income,2000,diab_tx_std,23.821505456999997
+Lower-middle-income,2000,htn_ctrl_crude,4.865
+Lower-middle-income,2000,htn_ctrl_std,4.876
+Lower-middle-income,2000,htn_tx_crude,17.805
+Lower-middle-income,2000,htn_tx_std,18.744
+Lower-middle-income,2001,diab_tx_crude,22.898486973
+Lower-middle-income,2001,diab_tx_std,24.021368072999998
+Lower-middle-income,2001,htn_ctrl_crude,5.166
+Lower-middle-income,2001,htn_ctrl_std,5.184
+Lower-middle-income,2001,htn_tx_crude,18.46
+Lower-middle-income,2001,htn_tx_std,19.439
+Lower-middle-income,2002,diab_tx_crude,23.072366742999996
+Lower-middle-income,2002,diab_tx_std,24.226035868
+Lower-middle-income,2002,htn_ctrl_crude,5.497999999999999
+Lower-middle-income,2002,htn_ctrl_std,5.537000000000001
+Lower-middle-income,2002,htn_tx_crude,19.156
+Lower-middle-income,2002,htn_tx_std,20.198
+Lower-middle-income,2003,diab_tx_crude,23.254475883
+Lower-middle-income,2003,diab_tx_std,24.435965695
+Lower-middle-income,2003,htn_ctrl_crude,5.881
+Lower-middle-income,2003,htn_ctrl_std,5.931
+Lower-middle-income,2003,htn_tx_crude,19.909000000000002
+Lower-middle-income,2003,htn_tx_std,21.000999999999998
+Lower-middle-income,2004,diab_tx_crude,23.442812104999998
+Lower-middle-income,2004,diab_tx_std,24.648140351000002
+Lower-middle-income,2004,htn_ctrl_crude,6.295
+Lower-middle-income,2004,htn_ctrl_std,6.3629999999999995
+Lower-middle-income,2004,htn_tx_crude,20.688000000000002
+Lower-middle-income,2004,htn_tx_std,21.836
+Lower-middle-income,2005,diab_tx_crude,23.637117673
+Lower-middle-income,2005,diab_tx_std,24.86026275
+Lower-middle-income,2005,htn_ctrl_crude,6.739
+Lower-middle-income,2005,htn_ctrl_std,6.83
+Lower-middle-income,2005,htn_tx_crude,21.488000000000003
+Lower-middle-income,2005,htn_tx_std,22.679000000000002
+Lower-middle-income,2006,diab_tx_crude,23.829197253000004
+Lower-middle-income,2006,diab_tx_std,25.068430656
+Lower-middle-income,2006,htn_ctrl_crude,7.197
+Lower-middle-income,2006,htn_ctrl_std,7.307
+Lower-middle-income,2006,htn_tx_crude,22.266
+Lower-middle-income,2006,htn_tx_std,23.514
+Lower-middle-income,2007,diab_tx_crude,24.016177228
+Lower-middle-income,2007,diab_tx_std,25.272492702999998
+Lower-middle-income,2007,htn_ctrl_crude,7.666
+Lower-middle-income,2007,htn_ctrl_std,7.792999999999999
+Lower-middle-income,2007,htn_tx_crude,23.016
+Lower-middle-income,2007,htn_tx_std,24.311
+Lower-middle-income,2008,diab_tx_crude,24.205244241
+Lower-middle-income,2008,diab_tx_std,25.47487572
+Lower-middle-income,2008,htn_ctrl_crude,8.121
+Lower-middle-income,2008,htn_ctrl_std,8.28
+Lower-middle-income,2008,htn_tx_crude,23.734
+Lower-middle-income,2008,htn_tx_std,25.08
+Lower-middle-income,2009,diab_tx_crude,24.398412222
+Lower-middle-income,2009,diab_tx_std,25.677990175999998
+Lower-middle-income,2009,htn_ctrl_crude,8.58
+Lower-middle-income,2009,htn_ctrl_std,8.752
+Lower-middle-income,2009,htn_tx_crude,24.418000000000003
+Lower-middle-income,2009,htn_tx_std,25.808000000000003
+Lower-middle-income,2010,diab_tx_crude,24.594363916000002
+Lower-middle-income,2010,diab_tx_std,25.881361452
+Lower-middle-income,2010,htn_ctrl_crude,9.032
+Lower-middle-income,2010,htn_ctrl_std,9.235
+Lower-middle-income,2010,htn_tx_crude,25.074
+Lower-middle-income,2010,htn_tx_std,26.500999999999998
+Lower-middle-income,2011,diab_tx_crude,24.790991333
+Lower-middle-income,2011,diab_tx_std,26.083835866999998
+Lower-middle-income,2011,htn_ctrl_crude,9.472000000000001
+Lower-middle-income,2011,htn_ctrl_std,9.706
+Lower-middle-income,2011,htn_tx_crude,25.671999999999997
+Lower-middle-income,2011,htn_tx_std,27.148000000000003
+Lower-middle-income,2012,diab_tx_crude,24.987145839
+Lower-middle-income,2012,diab_tx_std,26.283687234
+Lower-middle-income,2012,htn_ctrl_crude,9.933
+Lower-middle-income,2012,htn_ctrl_std,10.196
+Lower-middle-income,2012,htn_tx_crude,26.236
+Lower-middle-income,2012,htn_tx_std,27.758000000000003
+Lower-middle-income,2013,diab_tx_crude,25.174182053
+Lower-middle-income,2013,diab_tx_std,26.476556525
+Lower-middle-income,2013,htn_ctrl_crude,10.384
+Lower-middle-income,2013,htn_ctrl_std,10.675
+Lower-middle-income,2013,htn_tx_crude,26.761999999999997
+Lower-middle-income,2013,htn_tx_std,28.326
+Lower-middle-income,2014,diab_tx_crude,25.349966068
+Lower-middle-income,2014,diab_tx_std,26.660593438
+Lower-middle-income,2014,htn_ctrl_crude,10.814
+Lower-middle-income,2014,htn_ctrl_std,11.145
+Lower-middle-income,2014,htn_tx_crude,27.265
+Lower-middle-income,2014,htn_tx_std,28.858
+Lower-middle-income,2015,diab_tx_crude,25.523849484000003
+Lower-middle-income,2015,diab_tx_std,26.834214739
+Lower-middle-income,2015,htn_ctrl_crude,11.252
+Lower-middle-income,2015,htn_ctrl_std,11.613
+Lower-middle-income,2015,htn_tx_crude,27.755
+Lower-middle-income,2015,htn_tx_std,29.362
+Lower-middle-income,2016,diab_tx_crude,25.690541911
+Lower-middle-income,2016,diab_tx_std,26.99548848
+Lower-middle-income,2016,htn_ctrl_crude,11.699000000000002
+Lower-middle-income,2016,htn_ctrl_std,12.092
+Lower-middle-income,2016,htn_tx_crude,28.237
+Lower-middle-income,2016,htn_tx_std,29.872
+Lower-middle-income,2017,diab_tx_crude,25.853275513
+Lower-middle-income,2017,diab_tx_std,27.152238452000002
+Lower-middle-income,2017,htn_ctrl_crude,12.132
+Lower-middle-income,2017,htn_ctrl_std,12.552999999999999
+Lower-middle-income,2017,htn_tx_crude,28.678
+Lower-middle-income,2017,htn_tx_std,30.333000000000002
+Lower-middle-income,2018,diab_tx_crude,26.024294909
+Lower-middle-income,2018,diab_tx_std,27.312329610000003
+Lower-middle-income,2018,htn_ctrl_crude,12.635
+Lower-middle-income,2018,htn_ctrl_std,13.089
+Lower-middle-income,2018,htn_tx_crude,29.156999999999996
+Lower-middle-income,2018,htn_tx_std,30.826
+Lower-middle-income,2019,diab_tx_crude,26.206083407
+Lower-middle-income,2019,diab_tx_std,27.481613063
+Lower-middle-income,2019,htn_ctrl_crude,13.195
+Lower-middle-income,2019,htn_ctrl_std,13.669
+Lower-middle-income,2019,htn_tx_crude,29.663
+Lower-middle-income,2019,htn_tx_std,31.324
+Lower-middle-income,2020,diab_tx_crude,26.386765502
+Lower-middle-income,2020,diab_tx_std,27.660231949
+Lower-middle-income,2021,diab_tx_crude,26.567985927
+Lower-middle-income,2021,diab_tx_std,27.849485231
+Lower-middle-income,2022,diab_tx_crude,26.771249569000002
+Lower-middle-income,2022,diab_tx_std,28.047892703
+Not Classified,1990,diab_tx_crude,25.8628245
+Not Classified,1990,diab_tx_std,25.942501399999998
+Not Classified,1990,htn_ctrl_crude,6.525
+Not Classified,1990,htn_ctrl_std,6.4399999999999995
+Not Classified,1990,htn_tx_crude,24.5375
+Not Classified,1990,htn_tx_std,25.14
+Not Classified,1991,diab_tx_crude,25.819163600000003
+Not Classified,1991,diab_tx_std,25.949185399999998
+Not Classified,1991,htn_ctrl_crude,6.6
+Not Classified,1991,htn_ctrl_std,6.459999999999999
+Not Classified,1991,htn_tx_crude,24.875
+Not Classified,1991,htn_tx_std,25.439999999999998
+Not Classified,1992,diab_tx_crude,25.7858768
+Not Classified,1992,diab_tx_std,25.971074499999997
+Not Classified,1992,htn_ctrl_crude,6.7
+Not Classified,1992,htn_ctrl_std,6.55
+Not Classified,1992,htn_tx_crude,25.175
+Not Classified,1992,htn_tx_std,25.74
+Not Classified,1993,diab_tx_crude,25.7868739
+Not Classified,1993,diab_tx_std,26.0085357
+Not Classified,1993,htn_ctrl_crude,6.800000000000001
+Not Classified,1993,htn_ctrl_std,6.65
+Not Classified,1993,htn_tx_crude,25.55
+Not Classified,1993,htn_tx_std,26.089999999999996
+Not Classified,1994,diab_tx_crude,25.8018229
+Not Classified,1994,diab_tx_std,26.063105200000003
+Not Classified,1994,htn_ctrl_crude,6.9625
+Not Classified,1994,htn_ctrl_std,6.840000000000001
+Not Classified,1994,htn_tx_crude,25.95
+Not Classified,1994,htn_tx_std,26.45
+Not Classified,1995,diab_tx_crude,25.8192969
+Not Classified,1995,diab_tx_std,26.1357234
+Not Classified,1995,htn_ctrl_crude,7.1875
+Not Classified,1995,htn_ctrl_std,7.040000000000001
+Not Classified,1995,htn_tx_crude,26.375
+Not Classified,1995,htn_tx_std,26.839999999999996
+Not Classified,1996,diab_tx_crude,25.876545900000004
+Not Classified,1996,diab_tx_std,26.2306686
+Not Classified,1996,htn_ctrl_crude,7.4125
+Not Classified,1996,htn_ctrl_std,7.279999999999999
+Not Classified,1996,htn_tx_crude,26.7625
+Not Classified,1996,htn_tx_std,27.25
+Not Classified,1997,diab_tx_crude,25.968143399999995
+Not Classified,1997,diab_tx_std,26.345675699999997
+Not Classified,1997,htn_ctrl_crude,7.7125
+Not Classified,1997,htn_ctrl_std,7.56
+Not Classified,1997,htn_tx_crude,27.1875
+Not Classified,1997,htn_tx_std,27.68
+Not Classified,1998,diab_tx_crude,26.0931923
+Not Classified,1998,diab_tx_std,26.4802879
+Not Classified,1998,htn_ctrl_crude,8.025
+Not Classified,1998,htn_ctrl_std,7.85
+Not Classified,1998,htn_tx_crude,27.6625
+Not Classified,1998,htn_tx_std,28.139999999999997
+Not Classified,1999,diab_tx_crude,26.270586700000003
+Not Classified,1999,diab_tx_std,26.642308500000002
+Not Classified,1999,htn_ctrl_crude,8.35
+Not Classified,1999,htn_ctrl_std,8.16
+Not Classified,1999,htn_tx_crude,28.1375
+Not Classified,1999,htn_tx_std,28.6
+Not Classified,2000,diab_tx_crude,26.436243400000002
+Not Classified,2000,diab_tx_std,26.827615700000003
+Not Classified,2000,htn_ctrl_crude,8.6875
+Not Classified,2000,htn_ctrl_std,8.51
+Not Classified,2000,htn_tx_crude,28.725
+Not Classified,2000,htn_tx_std,29.109999999999996
+Not Classified,2001,diab_tx_crude,26.6491821
+Not Classified,2001,diab_tx_std,27.0436489
+Not Classified,2001,htn_ctrl_crude,9.125
+Not Classified,2001,htn_ctrl_std,8.879999999999999
+Not Classified,2001,htn_tx_crude,29.325
+Not Classified,2001,htn_tx_std,29.639999999999997
+Not Classified,2002,diab_tx_crude,26.9173259
+Not Classified,2002,diab_tx_std,27.2888845
+Not Classified,2002,htn_ctrl_crude,9.525
+Not Classified,2002,htn_ctrl_std,9.290000000000001
+Not Classified,2002,htn_tx_crude,29.9125
+Not Classified,2002,htn_tx_std,30.24
+Not Classified,2003,diab_tx_crude,27.263564300000002
+Not Classified,2003,diab_tx_std,27.5654886
+Not Classified,2003,htn_ctrl_crude,10.0125
+Not Classified,2003,htn_ctrl_std,9.73
+Not Classified,2003,htn_tx_crude,30.625
+Not Classified,2003,htn_tx_std,30.860000000000003
+Not Classified,2004,diab_tx_crude,27.6734171
+Not Classified,2004,diab_tx_std,27.8729847
+Not Classified,2004,htn_ctrl_crude,10.5125
+Not Classified,2004,htn_ctrl_std,10.21
+Not Classified,2004,htn_tx_crude,31.325
+Not Classified,2004,htn_tx_std,31.51
+Not Classified,2005,diab_tx_crude,28.0581438
+Not Classified,2005,diab_tx_std,28.212036599999998
+Not Classified,2005,htn_ctrl_crude,11.025
+Not Classified,2005,htn_ctrl_std,10.709999999999999
+Not Classified,2005,htn_tx_crude,32.05
+Not Classified,2005,htn_tx_std,32.160000000000004
+Not Classified,2006,diab_tx_crude,28.468795999999998
+Not Classified,2006,diab_tx_std,28.5795173
+Not Classified,2006,htn_ctrl_crude,11.5625
+Not Classified,2006,htn_ctrl_std,11.16
+Not Classified,2006,htn_tx_crude,32.85
+Not Classified,2006,htn_tx_std,32.81
+Not Classified,2007,diab_tx_crude,28.9420135
+Not Classified,2007,diab_tx_std,28.9762986
+Not Classified,2007,htn_ctrl_crude,12.1125
+Not Classified,2007,htn_ctrl_std,11.64
+Not Classified,2007,htn_tx_crude,33.6875
+Not Classified,2007,htn_tx_std,33.46
+Not Classified,2008,diab_tx_crude,29.489173799999996
+Not Classified,2008,diab_tx_std,29.406485399999998
+Not Classified,2008,htn_ctrl_crude,12.65
+Not Classified,2008,htn_ctrl_std,12.1
+Not Classified,2008,htn_tx_crude,34.475
+Not Classified,2008,htn_tx_std,34.08
+Not Classified,2009,diab_tx_crude,30.078439000000003
+Not Classified,2009,diab_tx_std,29.8719268
+Not Classified,2009,htn_ctrl_crude,13.1875
+Not Classified,2009,htn_ctrl_std,12.55
+Not Classified,2009,htn_tx_crude,35.2375
+Not Classified,2009,htn_tx_std,34.67
+Not Classified,2010,diab_tx_crude,30.683961800000002
+Not Classified,2010,diab_tx_std,30.3719318
+Not Classified,2010,htn_ctrl_crude,13.725000000000001
+Not Classified,2010,htn_ctrl_std,13.01
+Not Classified,2010,htn_tx_crude,36.0625
+Not Classified,2010,htn_tx_std,35.239999999999995
+Not Classified,2011,diab_tx_crude,31.302827100000002
+Not Classified,2011,diab_tx_std,30.900034599999998
+Not Classified,2011,htn_ctrl_crude,14.2625
+Not Classified,2011,htn_ctrl_std,13.48
+Not Classified,2011,htn_tx_crude,36.8125
+Not Classified,2011,htn_tx_std,35.8
+Not Classified,2012,diab_tx_crude,31.965199899999998
+Not Classified,2012,diab_tx_std,31.4559465
+Not Classified,2012,htn_ctrl_crude,14.8
+Not Classified,2012,htn_ctrl_std,13.930000000000001
+Not Classified,2012,htn_tx_crude,37.475
+Not Classified,2012,htn_tx_std,36.3
+Not Classified,2013,diab_tx_crude,32.6502226
+Not Classified,2013,diab_tx_std,32.0321495
+Not Classified,2013,htn_ctrl_crude,15.35
+Not Classified,2013,htn_ctrl_std,14.38
+Not Classified,2013,htn_tx_crude,38.0875
+Not Classified,2013,htn_tx_std,36.760000000000005
+Not Classified,2014,diab_tx_crude,33.3566796
+Not Classified,2014,diab_tx_std,32.6231079
+Not Classified,2014,htn_ctrl_crude,15.9125
+Not Classified,2014,htn_ctrl_std,14.85
+Not Classified,2014,htn_tx_crude,38.7125
+Not Classified,2014,htn_tx_std,37.21
+Not Classified,2015,diab_tx_crude,34.0438552
+Not Classified,2015,diab_tx_std,33.2235706
+Not Classified,2015,htn_ctrl_crude,16.4375
+Not Classified,2015,htn_ctrl_std,15.3
+Not Classified,2015,htn_tx_crude,39.2875
+Not Classified,2015,htn_tx_std,37.61
+Not Classified,2016,diab_tx_crude,34.6876807
+Not Classified,2016,diab_tx_std,33.825267000000004
+Not Classified,2016,htn_ctrl_crude,16.975
+Not Classified,2016,htn_ctrl_std,15.77
+Not Classified,2016,htn_tx_crude,39.8125
+Not Classified,2016,htn_tx_std,38.0
+Not Classified,2017,diab_tx_crude,35.3219664
+Not Classified,2017,diab_tx_std,34.4290437
+Not Classified,2017,htn_ctrl_crude,17.5125
+Not Classified,2017,htn_ctrl_std,16.22
+Not Classified,2017,htn_tx_crude,40.2875
+Not Classified,2017,htn_tx_std,38.35
+Not Classified,2018,diab_tx_crude,35.9920222
+Not Classified,2018,diab_tx_std,35.0374551
+Not Classified,2018,htn_ctrl_crude,18.1
+Not Classified,2018,htn_ctrl_std,16.73
+Not Classified,2018,htn_tx_crude,40.824999999999996
+Not Classified,2018,htn_tx_std,38.69
+Not Classified,2019,diab_tx_crude,36.6642242
+Not Classified,2019,diab_tx_std,35.6565467
+Not Classified,2019,htn_ctrl_crude,18.75
+Not Classified,2019,htn_ctrl_std,17.270000000000003
+Not Classified,2019,htn_tx_crude,41.35
+Not Classified,2019,htn_tx_std,39.05
+Not Classified,2020,diab_tx_crude,37.372121199999995
+Not Classified,2020,diab_tx_std,36.2852532
+Not Classified,2021,diab_tx_crude,38.1649945
+Not Classified,2021,diab_tx_std,36.9247716
+Not Classified,2022,diab_tx_crude,38.9258035
+Not Classified,2022,diab_tx_std,37.5679336
+Upper-middle-income,1990,diab_tx_crude,29.690357238679244
+Upper-middle-income,1990,diab_tx_std,30.13685761415094
+Upper-middle-income,1990,htn_ctrl_crude,4.773584905660377
+Upper-middle-income,1990,htn_ctrl_std,4.8009433962264145
+Upper-middle-income,1990,htn_tx_crude,21.31320754716981
+Upper-middle-income,1990,htn_tx_std,21.717924528301886
+Upper-middle-income,1991,diab_tx_crude,29.94485343490566
+Upper-middle-income,1991,diab_tx_std,30.438349781132075
+Upper-middle-income,1991,htn_ctrl_crude,4.868867924528302
+Upper-middle-income,1991,htn_ctrl_std,4.9075471698113216
+Upper-middle-income,1991,htn_tx_crude,21.901886792452828
+Upper-middle-income,1991,htn_tx_std,22.349056603773583
+Upper-middle-income,1992,diab_tx_crude,30.21589225471698
+Upper-middle-income,1992,diab_tx_std,30.751783729245286
+Upper-middle-income,1992,htn_ctrl_crude,5.010377358490566
+Upper-middle-income,1992,htn_ctrl_std,5.047169811320755
+Upper-middle-income,1992,htn_tx_crude,22.537735849056602
+Upper-middle-income,1992,htn_tx_std,23.016037735849054
+Upper-middle-income,1993,diab_tx_crude,30.497887753773586
+Upper-middle-income,1993,diab_tx_std,31.07681513018868
+Upper-middle-income,1993,htn_ctrl_crude,5.1773584905660375
+Upper-middle-income,1993,htn_ctrl_std,5.220754716981132
+Upper-middle-income,1993,htn_tx_crude,23.197169811320755
+Upper-middle-income,1993,htn_tx_std,23.717924528301886
+Upper-middle-income,1994,diab_tx_crude,30.787655303773587
+Upper-middle-income,1994,diab_tx_std,31.41118930754717
+Upper-middle-income,1994,htn_ctrl_crude,5.3915094339622645
+Upper-middle-income,1994,htn_ctrl_std,5.450943396226415
+Upper-middle-income,1994,htn_tx_crude,23.91792452830189
+Upper-middle-income,1994,htn_tx_std,24.470754716981133
+Upper-middle-income,1995,diab_tx_crude,31.09114727830189
+Upper-middle-income,1995,diab_tx_std,31.75482343490566
+Upper-middle-income,1995,htn_ctrl_crude,5.665094339622642
+Upper-middle-income,1995,htn_ctrl_std,5.721698113207547
+Upper-middle-income,1995,htn_tx_crude,24.678301886792454
+Upper-middle-income,1995,htn_tx_std,25.246226415094338
+Upper-middle-income,1996,diab_tx_crude,31.41137971792453
+Upper-middle-income,1996,diab_tx_std,32.10824443207547
+Upper-middle-income,1996,htn_ctrl_crude,5.964150943396227
+Upper-middle-income,1996,htn_ctrl_std,6.030188679245283
+Upper-middle-income,1996,htn_tx_crude,25.45566037735849
+Upper-middle-income,1996,htn_tx_std,26.054716981132078
+Upper-middle-income,1997,diab_tx_crude,31.747743022641508
+Upper-middle-income,1997,diab_tx_std,32.47086070283019
+Upper-middle-income,1997,htn_ctrl_crude,6.3009433962264145
+Upper-middle-income,1997,htn_ctrl_std,6.382075471698113
+Upper-middle-income,1997,htn_tx_crude,26.269811320754716
+Upper-middle-income,1997,htn_tx_std,26.90566037735849
+Upper-middle-income,1998,diab_tx_crude,32.09439151415094
+Upper-middle-income,1998,diab_tx_std,32.84031388207547
+Upper-middle-income,1998,htn_ctrl_crude,6.688679245283019
+Upper-middle-income,1998,htn_ctrl_std,6.761320754716982
+Upper-middle-income,1998,htn_tx_crude,27.114150943396226
+Upper-middle-income,1998,htn_tx_std,27.775471698113204
+Upper-middle-income,1999,diab_tx_crude,32.4552542254717
+Upper-middle-income,1999,diab_tx_std,33.218692450943394
+Upper-middle-income,1999,htn_ctrl_crude,7.093396226415094
+Upper-middle-income,1999,htn_ctrl_std,7.181132075471699
+Upper-middle-income,1999,htn_tx_crude,27.985849056603772
+Upper-middle-income,1999,htn_tx_std,28.66320754716981
+Upper-middle-income,2000,diab_tx_crude,32.8300697745283
+Upper-middle-income,2000,diab_tx_std,33.60461468867924
+Upper-middle-income,2000,htn_ctrl_crude,7.54811320754717
+Upper-middle-income,2000,htn_ctrl_std,7.640566037735849
+Upper-middle-income,2000,htn_tx_crude,28.89811320754717
+Upper-middle-income,2000,htn_tx_std,29.590566037735847
+Upper-middle-income,2001,diab_tx_crude,33.2177263990566
+Upper-middle-income,2001,diab_tx_std,33.9993985
+Upper-middle-income,2001,htn_ctrl_crude,8.040566037735848
+Upper-middle-income,2001,htn_ctrl_std,8.152830188679246
+Upper-middle-income,2001,htn_tx_crude,29.837735849056607
+Upper-middle-income,2001,htn_tx_std,30.565094339622643
+Upper-middle-income,2002,diab_tx_crude,33.618685856603776
+Upper-middle-income,2002,diab_tx_std,34.40323793962264
+Upper-middle-income,2002,htn_ctrl_crude,8.591509433962264
+Upper-middle-income,2002,htn_ctrl_std,8.70754716981132
+Upper-middle-income,2002,htn_tx_crude,30.830188679245282
+Upper-middle-income,2002,htn_tx_std,31.578301886792456
+Upper-middle-income,2003,diab_tx_crude,34.0313066745283
+Upper-middle-income,2003,diab_tx_std,34.816490088679245
+Upper-middle-income,2003,htn_ctrl_crude,9.19245283018868
+Upper-middle-income,2003,htn_ctrl_std,9.325471698113208
+Upper-middle-income,2003,htn_tx_crude,31.867924528301888
+Upper-middle-income,2003,htn_tx_std,32.62830188679245
+Upper-middle-income,2004,diab_tx_crude,34.45028023962264
+Upper-middle-income,2004,diab_tx_std,35.235635523584904
+Upper-middle-income,2004,htn_ctrl_crude,9.84622641509434
+Upper-middle-income,2004,htn_ctrl_std,9.985849056603774
+Upper-middle-income,2004,htn_tx_crude,32.929245283018865
+Upper-middle-income,2004,htn_tx_std,33.70188679245283
+Upper-middle-income,2005,diab_tx_crude,34.87616898962264
+Upper-middle-income,2005,diab_tx_std,35.65994073962264
+Upper-middle-income,2005,htn_ctrl_crude,10.521698113207547
+Upper-middle-income,2005,htn_ctrl_std,10.667924528301887
+Upper-middle-income,2005,htn_tx_crude,33.99433962264151
+Upper-middle-income,2005,htn_tx_std,34.76320754716981
+Upper-middle-income,2006,diab_tx_crude,35.30773009056604
+Upper-middle-income,2006,diab_tx_std,36.08360888018868
+Upper-middle-income,2006,htn_ctrl_crude,11.206603773584906
+Upper-middle-income,2006,htn_ctrl_std,11.367924528301886
+Upper-middle-income,2006,htn_tx_crude,35.02358490566038
+Upper-middle-income,2006,htn_tx_std,35.79811320754717
+Upper-middle-income,2007,diab_tx_crude,35.750269380188676
+Upper-middle-income,2007,diab_tx_std,36.50807192641509
+Upper-middle-income,2007,htn_ctrl_crude,11.891509433962264
+Upper-middle-income,2007,htn_ctrl_std,12.053773584905661
+Upper-middle-income,2007,htn_tx_crude,36.02358490566038
+Upper-middle-income,2007,htn_tx_std,36.76320754716981
+Upper-middle-income,2008,diab_tx_crude,36.20306392641509
+Upper-middle-income,2008,diab_tx_std,36.9368577745283
+Upper-middle-income,2008,htn_ctrl_crude,12.559433962264151
+Upper-middle-income,2008,htn_ctrl_std,12.729245283018868
+Upper-middle-income,2008,htn_tx_crude,36.973584905660374
+Upper-middle-income,2008,htn_tx_std,37.68301886792453
+Upper-middle-income,2009,diab_tx_crude,36.6684737490566
+Upper-middle-income,2009,diab_tx_std,37.37172382075472
+Upper-middle-income,2009,htn_ctrl_crude,13.21320754716981
+Upper-middle-income,2009,htn_ctrl_std,13.384905660377358
+Upper-middle-income,2009,htn_tx_crude,37.861320754716985
+Upper-middle-income,2009,htn_tx_std,38.534905660377355
+Upper-middle-income,2010,diab_tx_crude,37.146065691509435
+Upper-middle-income,2010,diab_tx_std,37.81279669339623
+Upper-middle-income,2010,htn_ctrl_crude,13.862264150943398
+Upper-middle-income,2010,htn_ctrl_std,14.029245283018867
+Upper-middle-income,2010,htn_tx_crude,38.70283018867924
+Upper-middle-income,2010,htn_tx_std,39.3122641509434
+Upper-middle-income,2011,diab_tx_crude,37.634651143396226
+Upper-middle-income,2011,diab_tx_std,38.259219623584904
+Upper-middle-income,2011,htn_ctrl_crude,14.488679245283018
+Upper-middle-income,2011,htn_ctrl_std,14.65566037735849
+Upper-middle-income,2011,htn_tx_crude,39.44716981132075
+Upper-middle-income,2011,htn_tx_std,40.02358490566038
+Upper-middle-income,2012,diab_tx_crude,38.13404909150944
+Upper-middle-income,2012,diab_tx_std,38.70903021037736
+Upper-middle-income,2012,htn_ctrl_crude,15.1
+Upper-middle-income,2012,htn_ctrl_std,15.271698113207547
+Upper-middle-income,2012,htn_tx_crude,40.133018867924534
+Upper-middle-income,2012,htn_tx_std,40.67358490566038
+Upper-middle-income,2013,diab_tx_crude,38.62942280188679
+Upper-middle-income,2013,diab_tx_std,39.15581535943396
+Upper-middle-income,2013,htn_ctrl_crude,15.685849056603773
+Upper-middle-income,2013,htn_ctrl_std,15.854716981132075
+Upper-middle-income,2013,htn_tx_crude,40.74716981132075
+Upper-middle-income,2013,htn_tx_std,41.240566037735846
+Upper-middle-income,2014,diab_tx_crude,39.12310920566038
+Upper-middle-income,2014,diab_tx_std,39.593598112264154
+Upper-middle-income,2014,htn_ctrl_crude,16.232075471698113
+Upper-middle-income,2014,htn_ctrl_std,16.400000000000002
+Upper-middle-income,2014,htn_tx_crude,41.29433962264151
+Upper-middle-income,2014,htn_tx_std,41.736792452830194
+Upper-middle-income,2015,diab_tx_crude,39.61438424811321
+Upper-middle-income,2015,diab_tx_std,40.01688391037736
+Upper-middle-income,2015,htn_ctrl_crude,16.75754716981132
+Upper-middle-income,2015,htn_ctrl_std,16.908490566037734
+Upper-middle-income,2015,htn_tx_crude,41.80094339622641
+Upper-middle-income,2015,htn_tx_std,42.174528301886795
+Upper-middle-income,2016,diab_tx_crude,40.097035483018864
+Upper-middle-income,2016,diab_tx_std,40.42016657358491
+Upper-middle-income,2016,htn_ctrl_crude,17.25
+Upper-middle-income,2016,htn_ctrl_std,17.39056603773585
+Upper-middle-income,2016,htn_tx_crude,42.24905660377358
+Upper-middle-income,2016,htn_tx_std,42.597169811320754
+Upper-middle-income,2017,diab_tx_crude,40.57539365943396
+Upper-middle-income,2017,diab_tx_std,40.80994172264151
+Upper-middle-income,2017,htn_ctrl_crude,17.70566037735849
+Upper-middle-income,2017,htn_ctrl_std,17.831132075471697
+Upper-middle-income,2017,htn_tx_crude,42.637735849056604
+Upper-middle-income,2017,htn_tx_std,42.93584905660377
+Upper-middle-income,2018,diab_tx_crude,41.04990279433963
+Upper-middle-income,2018,diab_tx_std,41.19442871037736
+Upper-middle-income,2018,htn_ctrl_crude,18.22641509433962
+Upper-middle-income,2018,htn_ctrl_std,18.34433962264151
+Upper-middle-income,2018,htn_tx_crude,43.03962264150943
+Upper-middle-income,2018,htn_tx_std,43.283962264150944
+Upper-middle-income,2019,diab_tx_crude,41.53242993301887
+Upper-middle-income,2019,diab_tx_std,41.578775860377355
+Upper-middle-income,2019,htn_ctrl_crude,18.796226415094342
+Upper-middle-income,2019,htn_ctrl_std,18.900943396226417
+Upper-middle-income,2019,htn_tx_crude,43.4566037735849
+Upper-middle-income,2019,htn_tx_std,43.62830188679246
+Upper-middle-income,2020,diab_tx_crude,42.01308315943396
+Upper-middle-income,2020,diab_tx_std,41.96368568867924
+Upper-middle-income,2021,diab_tx_crude,42.48454050471698
+Upper-middle-income,2021,diab_tx_std,42.350449415094346
+Upper-middle-income,2022,diab_tx_crude,42.96445233018868
+Upper-middle-income,2022,diab_tx_std,42.73335888679245

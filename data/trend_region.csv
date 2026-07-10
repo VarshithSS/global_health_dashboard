@@ -1,0 +1,1117 @@
+who_region,year,indicator_code,avg_value
+African,1990,diab_tx_crude,16.591638126595743
+African,1990,diab_tx_std,17.189523124468085
+African,1990,htn_ctrl_crude,2.230851063829787
+African,1990,htn_ctrl_std,2.176595744680851
+African,1990,htn_tx_crude,9.079787234042554
+African,1990,htn_tx_std,9.36595744680851
+African,1991,diab_tx_crude,16.60902849574468
+African,1991,diab_tx_std,17.24772184787234
+African,1991,htn_ctrl_crude,2.222340425531915
+African,1991,htn_ctrl_std,2.171276595744681
+African,1991,htn_tx_crude,9.282978723404256
+African,1991,htn_tx_std,9.604255319148935
+African,1992,diab_tx_crude,16.6396480106383
+African,1992,diab_tx_std,17.316637279787233
+African,1992,htn_ctrl_crude,2.2361702127659573
+African,1992,htn_ctrl_std,2.1872340425531913
+African,1992,htn_tx_crude,9.51808510638298
+African,1992,htn_tx_std,9.880851063829788
+African,1993,diab_tx_crude,16.68182267978723
+African,1993,diab_tx_std,17.39592133404255
+African,1993,htn_ctrl_crude,2.2670212765957447
+African,1993,htn_ctrl_std,2.221276595744681
+African,1993,htn_tx_crude,9.77659574468085
+African,1993,htn_tx_std,10.174468085106383
+African,1994,diab_tx_crude,16.727765658510638
+African,1994,diab_tx_std,17.48388523297872
+African,1994,htn_ctrl_crude,2.318085106382979
+African,1994,htn_ctrl_std,2.2861702127659576
+African,1994,htn_tx_crude,10.074468085106384
+African,1994,htn_tx_std,10.50744680851064
+African,1995,diab_tx_crude,16.777138467021278
+African,1995,diab_tx_std,17.579798223404257
+African,1995,htn_ctrl_crude,2.3946808510638298
+African,1995,htn_ctrl_std,2.3659574468085105
+African,1995,htn_tx_crude,10.38404255319149
+African,1995,htn_tx_std,10.856382978723405
+African,1996,diab_tx_crude,16.83945099787234
+African,1996,diab_tx_std,17.682492278723405
+African,1996,htn_ctrl_crude,2.484042553191489
+African,1996,htn_ctrl_std,2.4680851063829787
+African,1996,htn_tx_crude,10.73191489361702
+African,1996,htn_tx_std,11.240425531914893
+African,1997,diab_tx_crude,16.910372769148935
+African,1997,diab_tx_std,17.79163430212766
+African,1997,htn_ctrl_crude,2.6021276595744682
+African,1997,htn_ctrl_std,2.5914893617021275
+African,1997,htn_tx_crude,11.101063829787234
+African,1997,htn_tx_std,11.657446808510638
+African,1998,diab_tx_crude,16.980208879787234
+African,1998,diab_tx_std,17.90618760425532
+African,1998,htn_ctrl_crude,2.730851063829787
+African,1998,htn_ctrl_std,2.725531914893617
+African,1998,htn_tx_crude,11.50531914893617
+African,1998,htn_tx_std,12.106382978723405
+African,1999,diab_tx_crude,17.05495795744681
+African,1999,diab_tx_std,18.026609274468086
+African,1999,htn_ctrl_crude,2.8808510638297875
+African,1999,htn_ctrl_std,2.8861702127659576
+African,1999,htn_tx_crude,11.935106382978724
+African,1999,htn_tx_std,12.582978723404254
+African,2000,diab_tx_crude,17.137809892553193
+African,2000,diab_tx_std,18.151364637234042
+African,2000,htn_ctrl_crude,3.0425531914893615
+African,2000,htn_ctrl_std,3.0638297872340425
+African,2000,htn_tx_crude,12.393617021276595
+African,2000,htn_tx_std,13.093617021276595
+African,2001,diab_tx_crude,17.22762939574468
+African,2001,diab_tx_std,18.282217078723402
+African,2001,htn_ctrl_crude,3.234042553191489
+African,2001,htn_ctrl_std,3.2585106382978726
+African,2001,htn_tx_crude,12.892553191489363
+African,2001,htn_tx_std,13.636170212765958
+African,2002,diab_tx_crude,17.322310828723406
+African,2002,diab_tx_std,18.41798940425532
+African,2002,htn_ctrl_crude,3.4414893617021276
+African,2002,htn_ctrl_std,3.484042553191489
+African,2002,htn_tx_crude,13.42127659574468
+African,2002,htn_tx_std,14.22659574468085
+African,2003,diab_tx_crude,17.421815929787233
+African,2003,diab_tx_std,18.55934154468085
+African,2003,htn_ctrl_crude,3.673404255319149
+African,2003,htn_ctrl_std,3.721276595744681
+African,2003,htn_tx_crude,13.986170212765957
+African,2003,htn_tx_std,14.859574468085105
+African,2004,diab_tx_crude,17.527002168085108
+African,2004,diab_tx_std,18.705004061702127
+African,2004,htn_ctrl_crude,3.929787234042553
+African,2004,htn_ctrl_std,4.001063829787234
+African,2004,htn_tx_crude,14.574468085106384
+African,2004,htn_tx_std,15.511702127659573
+African,2005,diab_tx_crude,17.63743905106383
+African,2005,diab_tx_std,18.853031817021275
+African,2005,htn_ctrl_crude,4.214893617021277
+African,2005,htn_ctrl_std,4.3
+African,2005,htn_tx_crude,15.185106382978724
+African,2005,htn_tx_std,16.18936170212766
+African,2006,diab_tx_crude,17.748053634042552
+African,2006,diab_tx_std,19.000911877659576
+African,2006,htn_ctrl_crude,4.507446808510638
+African,2006,htn_ctrl_std,4.617021276595745
+African,2006,htn_tx_crude,15.801063829787234
+African,2006,htn_tx_std,16.875531914893617
+African,2007,diab_tx_crude,17.858899234042553
+African,2007,diab_tx_std,19.149549039361702
+African,2007,htn_ctrl_crude,4.834042553191489
+African,2007,htn_ctrl_std,4.967021276595744
+African,2007,htn_tx_crude,16.42659574468085
+African,2007,htn_tx_std,17.57127659574468
+African,2008,diab_tx_crude,17.970218684042553
+African,2008,diab_tx_std,19.300134830851064
+African,2008,htn_ctrl_crude,5.171276595744681
+African,2008,htn_ctrl_std,5.3319148936170215
+African,2008,htn_tx_crude,17.056382978723402
+African,2008,htn_tx_std,18.282978723404256
+African,2009,diab_tx_crude,18.086853790425533
+African,2009,diab_tx_std,19.457711832978724
+African,2009,htn_ctrl_crude,5.544680851063831
+African,2009,htn_ctrl_std,5.731914893617021
+African,2009,htn_tx_crude,17.70744680851064
+African,2009,htn_tx_std,19.00851063829787
+African,2010,diab_tx_crude,18.214206975531916
+African,2010,diab_tx_std,19.623990287234044
+African,2010,htn_ctrl_crude,5.951063829787234
+African,2010,htn_ctrl_std,6.1680851063829785
+African,2010,htn_tx_crude,18.378723404255318
+African,2010,htn_tx_std,19.75
+African,2011,diab_tx_crude,18.352760932978722
+African,2011,diab_tx_std,19.797734858510637
+African,2011,htn_ctrl_crude,6.381914893617021
+African,2011,htn_ctrl_std,6.638297872340425
+African,2011,htn_tx_crude,19.05
+African,2011,htn_tx_std,20.49787234042553
+African,2012,diab_tx_crude,18.50375094468085
+African,2012,diab_tx_std,19.978488843617022
+African,2012,htn_ctrl_crude,6.859574468085106
+African,2012,htn_ctrl_std,7.15
+African,2012,htn_tx_crude,19.727659574468085
+African,2012,htn_tx_std,21.26595744680851
+African,2013,diab_tx_crude,18.663395932978723
+African,2013,diab_tx_std,20.164466218085106
+African,2013,htn_ctrl_crude,7.358510638297873
+African,2013,htn_ctrl_std,7.6978723404255325
+African,2013,htn_tx_crude,20.419148936170213
+African,2013,htn_tx_std,22.03191489361702
+African,2014,diab_tx_crude,18.828287473404256
+African,2014,diab_tx_std,20.354288695744682
+African,2014,htn_ctrl_crude,7.87872340425532
+African,2014,htn_ctrl_std,8.267021276595745
+African,2014,htn_tx_crude,21.11063829787234
+African,2014,htn_tx_std,22.804255319148936
+African,2015,diab_tx_crude,18.998791623404255
+African,2015,diab_tx_std,20.54672565212766
+African,2015,htn_ctrl_crude,8.431914893617021
+African,2015,htn_ctrl_std,8.86595744680851
+African,2015,htn_tx_crude,21.81276595744681
+African,2015,htn_tx_std,23.57340425531915
+African,2016,diab_tx_crude,19.1752461893617
+African,2016,diab_tx_std,20.741845285106383
+African,2016,htn_ctrl_crude,9.01063829787234
+African,2016,htn_ctrl_std,9.495744680851065
+African,2016,htn_tx_crude,22.532978723404256
+African,2016,htn_tx_std,24.376595744680852
+African,2017,diab_tx_crude,19.363592785106384
+African,2017,diab_tx_std,20.94183945531915
+African,2017,htn_ctrl_crude,9.622340425531915
+African,2017,htn_ctrl_std,10.157446808510638
+African,2017,htn_tx_crude,23.251063829787235
+African,2017,htn_tx_std,25.174468085106383
+African,2018,diab_tx_crude,19.564342579787237
+African,2018,diab_tx_std,21.14966528829787
+African,2018,htn_ctrl_crude,10.291489361702128
+African,2018,htn_ctrl_std,10.893617021276595
+African,2018,htn_tx_crude,23.998936170212765
+African,2018,htn_tx_std,25.991489361702126
+African,2019,diab_tx_crude,19.777966810638297
+African,2019,diab_tx_std,21.36990565319149
+African,2019,htn_ctrl_crude,11.02659574468085
+African,2019,htn_ctrl_std,11.690425531914894
+African,2019,htn_tx_crude,24.782978723404256
+African,2019,htn_tx_std,26.837234042553188
+African,2020,diab_tx_crude,19.999624430851064
+African,2020,diab_tx_std,21.602999015957447
+African,2021,diab_tx_crude,20.231487224468086
+African,2021,diab_tx_std,21.849986586170214
+African,2022,diab_tx_crude,20.48126384468085
+African,2022,diab_tx_std,22.110651486170216
+Americas,1990,diab_tx_crude,36.69148095833334
+Americas,1990,diab_tx_std,37.11025551388889
+Americas,1990,htn_ctrl_crude,7.140277777777778
+Americas,1990,htn_ctrl_std,7.1819444444444445
+Americas,1990,htn_tx_crude,26.177777777777777
+Americas,1990,htn_tx_std,26.519444444444446
+Americas,1991,diab_tx_crude,37.02743395833333
+Americas,1991,diab_tx_std,37.51445415277778
+Americas,1991,htn_ctrl_crude,7.361111111111111
+Americas,1991,htn_ctrl_std,7.398611111111112
+Americas,1991,htn_tx_crude,26.929166666666667
+Americas,1991,htn_tx_std,27.329166666666666
+Americas,1992,diab_tx_crude,37.37230748611111
+Americas,1992,diab_tx_std,37.92571919444444
+Americas,1992,htn_ctrl_crude,7.638888888888889
+Americas,1992,htn_ctrl_std,7.672222222222222
+Americas,1992,htn_tx_crude,27.72361111111111
+Americas,1992,htn_tx_std,28.186111111111114
+Americas,1993,diab_tx_crude,37.723061
+Americas,1993,diab_tx_std,38.343198236111114
+Americas,1993,htn_ctrl_crude,7.9541666666666675
+Americas,1993,htn_ctrl_std,8.002777777777778
+Americas,1993,htn_tx_crude,28.556944444444444
+Americas,1993,htn_tx_std,29.068055555555556
+Americas,1994,diab_tx_crude,38.07594623611111
+Americas,1994,diab_tx_std,38.762153069444444
+Americas,1994,htn_ctrl_crude,8.338888888888889
+Americas,1994,htn_ctrl_std,8.402777777777779
+Americas,1994,htn_tx_crude,29.431944444444444
+Americas,1994,htn_tx_std,30.005555555555556
+Americas,1995,diab_tx_crude,38.43350170833333
+Americas,1995,diab_tx_std,39.18105119444445
+Americas,1995,htn_ctrl_crude,8.786111111111111
+Americas,1995,htn_ctrl_std,8.854166666666666
+Americas,1995,htn_tx_crude,30.35694444444444
+Americas,1995,htn_tx_std,30.970833333333335
+Americas,1996,diab_tx_crude,38.79953472222222
+Americas,1996,diab_tx_std,39.59924031944444
+Americas,1996,htn_ctrl_crude,9.297222222222222
+Americas,1996,htn_ctrl_std,9.375
+Americas,1996,htn_tx_crude,31.299999999999997
+Americas,1996,htn_tx_std,31.966666666666665
+Americas,1997,diab_tx_crude,39.17217054166667
+Americas,1997,diab_tx_std,40.01526248611111
+Americas,1997,htn_ctrl_crude,9.866666666666667
+Americas,1997,htn_ctrl_std,9.945833333333333
+Americas,1997,htn_tx_crude,32.28333333333333
+Americas,1997,htn_tx_std,32.99444444444444
+Americas,1998,diab_tx_crude,39.54970473611112
+Americas,1998,diab_tx_std,40.42423851388889
+Americas,1998,htn_ctrl_crude,10.4875
+Americas,1998,htn_ctrl_std,10.566666666666666
+Americas,1998,htn_tx_crude,33.297222222222224
+Americas,1998,htn_tx_std,34.048611111111114
+Americas,1999,diab_tx_crude,39.93496841666667
+Americas,1999,diab_tx_std,40.82839327777778
+Americas,1999,htn_ctrl_crude,11.144444444444444
+Americas,1999,htn_ctrl_std,11.23611111111111
+Americas,1999,htn_tx_crude,34.33888888888889
+Americas,1999,htn_tx_std,35.11805555555556
+Americas,2000,diab_tx_crude,40.322034305555555
+Americas,2000,diab_tx_std,41.22540645833333
+Americas,2000,htn_ctrl_crude,11.865277777777777
+Americas,2000,htn_ctrl_std,11.954166666666667
+Americas,2000,htn_tx_crude,35.43472222222223
+Americas,2000,htn_tx_std,36.230555555555554
+Americas,2001,diab_tx_crude,40.708935374999996
+Americas,2001,diab_tx_std,41.61713283333333
+Americas,2001,htn_ctrl_crude,12.651388888888889
+Americas,2001,htn_ctrl_std,12.76388888888889
+Americas,2001,htn_tx_crude,36.57083333333333
+Americas,2001,htn_tx_std,37.390277777777776
+Americas,2002,diab_tx_crude,41.09317863888889
+Americas,2002,diab_tx_std,42.00114433333333
+Americas,2002,htn_ctrl_crude,13.515277777777778
+Americas,2002,htn_ctrl_std,13.634722222222223
+Americas,2002,htn_tx_crude,37.75555555555556
+Americas,2002,htn_tx_std,38.604166666666664
+Americas,2003,diab_tx_crude,41.47705036111111
+Americas,2003,diab_tx_std,42.376099958333334
+Americas,2003,htn_ctrl_crude,14.468055555555557
+Americas,2003,htn_ctrl_std,14.58472222222222
+Americas,2003,htn_tx_crude,38.99861111111111
+Americas,2003,htn_tx_std,39.84722222222222
+Americas,2004,diab_tx_crude,41.85473348611111
+Americas,2004,diab_tx_std,42.738226625
+Americas,2004,htn_ctrl_crude,15.47361111111111
+Americas,2004,htn_ctrl_std,15.587499999999999
+Americas,2004,htn_tx_crude,40.270833333333336
+Americas,2004,htn_tx_std,41.11666666666667
+Americas,2005,diab_tx_crude,42.22474563888889
+Americas,2005,diab_tx_std,43.085921069444446
+Americas,2005,htn_ctrl_crude,16.490277777777777
+Americas,2005,htn_ctrl_std,16.620833333333334
+Americas,2005,htn_tx_crude,41.548611111111114
+Americas,2005,htn_tx_std,42.37361111111111
+Americas,2006,diab_tx_crude,42.581569916666666
+Americas,2006,diab_tx_std,43.41208634722222
+Americas,2006,htn_ctrl_crude,17.51388888888889
+Americas,2006,htn_ctrl_std,17.647222222222222
+Americas,2006,htn_tx_crude,42.793055555555554
+Americas,2006,htn_tx_std,43.580555555555556
+Americas,2007,diab_tx_crude,42.93234351388889
+Americas,2007,diab_tx_std,43.722364125
+Americas,2007,htn_ctrl_crude,18.518055555555556
+Americas,2007,htn_ctrl_std,18.631944444444443
+Americas,2007,htn_tx_crude,43.99722222222223
+Americas,2007,htn_tx_std,44.730555555555554
+Americas,2008,diab_tx_crude,43.286847944444446
+Americas,2008,diab_tx_std,44.02610552777778
+Americas,2008,htn_ctrl_crude,19.494444444444444
+Americas,2008,htn_ctrl_std,19.61388888888889
+Americas,2008,htn_tx_crude,45.15416666666667
+Americas,2008,htn_tx_std,45.81944444444444
+Americas,2009,diab_tx_crude,43.64956794444444
+Americas,2009,diab_tx_std,44.32940222222223
+Americas,2009,htn_ctrl_crude,20.4375
+Americas,2009,htn_ctrl_std,20.540277777777778
+Americas,2009,htn_tx_crude,46.230555555555554
+Americas,2009,htn_tx_std,46.833333333333336
+Americas,2010,diab_tx_crude,44.01635177777777
+Americas,2010,diab_tx_std,44.632966430555555
+Americas,2010,htn_ctrl_crude,21.345833333333335
+Americas,2010,htn_ctrl_std,21.4375
+Americas,2010,htn_tx_crude,47.24861111111111
+Americas,2010,htn_tx_std,47.75833333333333
+Americas,2011,diab_tx_crude,44.38578779166667
+Americas,2011,diab_tx_std,44.940157291666665
+Americas,2011,htn_ctrl_crude,22.21527777777778
+Americas,2011,htn_ctrl_std,22.288888888888888
+Americas,2011,htn_tx_crude,48.14861111111111
+Americas,2011,htn_tx_std,48.59027777777778
+Americas,2012,diab_tx_crude,44.766369625
+Americas,2012,diab_tx_std,45.25334675
+Americas,2012,htn_ctrl_crude,23.02777777777778
+Americas,2012,htn_ctrl_std,23.09722222222222
+Americas,2012,htn_tx_crude,48.96388888888889
+Americas,2012,htn_tx_std,49.327777777777776
+Americas,2013,diab_tx_crude,45.14458426388889
+Americas,2013,diab_tx_std,45.56557995833333
+Americas,2013,htn_ctrl_crude,23.78611111111111
+Americas,2013,htn_ctrl_std,23.829166666666666
+Americas,2013,htn_tx_crude,49.666666666666664
+Americas,2013,htn_tx_std,49.95972222222222
+Americas,2014,diab_tx_crude,45.51752008333333
+Americas,2014,diab_tx_std,45.86726368055556
+Americas,2014,htn_ctrl_crude,24.4625
+Americas,2014,htn_ctrl_std,24.47361111111111
+Americas,2014,htn_tx_crude,50.28194444444445
+Americas,2014,htn_tx_std,50.46944444444445
+Americas,2015,diab_tx_crude,45.88700445833334
+Americas,2015,diab_tx_std,46.151871666666665
+Americas,2015,htn_ctrl_crude,25.052777777777777
+Americas,2015,htn_ctrl_std,25.0375
+Americas,2015,htn_tx_crude,50.80277777777778
+Americas,2015,htn_tx_std,50.888888888888886
+Americas,2016,diab_tx_crude,46.25152131944444
+Americas,2016,diab_tx_std,46.417414666666666
+Americas,2016,htn_ctrl_crude,25.586111111111112
+Americas,2016,htn_ctrl_std,25.53472222222222
+Americas,2016,htn_tx_crude,51.24444444444444
+Americas,2016,htn_tx_std,51.24722222222223
+Americas,2017,diab_tx_crude,46.606928930555554
+Americas,2017,diab_tx_std,46.66648547222222
+Americas,2017,htn_ctrl_crude,26.056944444444444
+Americas,2017,htn_ctrl_std,25.980555555555554
+Americas,2017,htn_tx_crude,51.625
+Americas,2017,htn_tx_std,51.513888888888886
+Americas,2018,diab_tx_crude,46.939231569444445
+Americas,2018,diab_tx_std,46.90412376388889
+Americas,2018,htn_ctrl_crude,26.575000000000003
+Americas,2018,htn_ctrl_std,26.45138888888889
+Americas,2018,htn_tx_crude,51.986111111111114
+Americas,2018,htn_tx_std,51.769444444444446
+Americas,2019,diab_tx_crude,47.26827045833333
+Americas,2019,diab_tx_std,47.133474722222225
+Americas,2019,htn_ctrl_crude,27.12777777777778
+Americas,2019,htn_ctrl_std,26.955555555555556
+Americas,2019,htn_tx_crude,52.354166666666664
+Americas,2019,htn_tx_std,52.013888888888886
+Americas,2020,diab_tx_crude,47.587682722222226
+Americas,2020,diab_tx_std,47.35733847222222
+Americas,2021,diab_tx_crude,47.880068249999994
+Americas,2021,diab_tx_std,47.57987658333334
+Americas,2022,diab_tx_crude,48.172539791666665
+Americas,2022,diab_tx_std,47.79441008333333
+Eastern Mediterranean,1990,diab_tx_crude,32.583825431818184
+Eastern Mediterranean,1990,diab_tx_std,34.01104518181818
+Eastern Mediterranean,1990,htn_ctrl_crude,4.152272727272727
+Eastern Mediterranean,1990,htn_ctrl_std,4.265909090909091
+Eastern Mediterranean,1990,htn_tx_crude,17.870454545454546
+Eastern Mediterranean,1990,htn_tx_std,19.597727272727273
+Eastern Mediterranean,1991,diab_tx_crude,32.88772506818182
+Eastern Mediterranean,1991,diab_tx_std,34.389396181818185
+Eastern Mediterranean,1991,htn_ctrl_crude,4.113636363636363
+Eastern Mediterranean,1991,htn_ctrl_std,4.236363636363636
+Eastern Mediterranean,1991,htn_tx_crude,18.204545454545453
+Eastern Mediterranean,1991,htn_tx_std,20.027272727272727
+Eastern Mediterranean,1992,diab_tx_crude,33.19717306818182
+Eastern Mediterranean,1992,diab_tx_std,34.77677140909091
+Eastern Mediterranean,1992,htn_ctrl_crude,4.097727272727273
+Eastern Mediterranean,1992,htn_ctrl_std,4.238636363636363
+Eastern Mediterranean,1992,htn_tx_crude,18.563636363636363
+Eastern Mediterranean,1992,htn_tx_std,20.49318181818182
+Eastern Mediterranean,1993,diab_tx_crude,33.49733470454545
+Eastern Mediterranean,1993,diab_tx_std,35.17298720454546
+Eastern Mediterranean,1993,htn_ctrl_crude,4.111363636363636
+Eastern Mediterranean,1993,htn_ctrl_std,4.2704545454545455
+Eastern Mediterranean,1993,htn_tx_crude,18.936363636363637
+Eastern Mediterranean,1993,htn_tx_std,20.986363636363635
+Eastern Mediterranean,1994,diab_tx_crude,33.76612336363636
+Eastern Mediterranean,1994,diab_tx_std,35.5780185
+Eastern Mediterranean,1994,htn_ctrl_crude,4.1477272727272725
+Eastern Mediterranean,1994,htn_ctrl_std,4.336363636363637
+Eastern Mediterranean,1994,htn_tx_crude,19.345454545454547
+Eastern Mediterranean,1994,htn_tx_std,21.518181818181816
+Eastern Mediterranean,1995,diab_tx_crude,34.04976861363636
+Eastern Mediterranean,1995,diab_tx_std,35.993019227272725
+Eastern Mediterranean,1995,htn_ctrl_crude,4.247727272727273
+Eastern Mediterranean,1995,htn_ctrl_std,4.452272727272727
+Eastern Mediterranean,1995,htn_tx_crude,19.78181818181818
+Eastern Mediterranean,1995,htn_tx_std,22.09090909090909
+Eastern Mediterranean,1996,diab_tx_crude,34.39894640909091
+Eastern Mediterranean,1996,diab_tx_std,36.419529181818184
+Eastern Mediterranean,1996,htn_ctrl_crude,4.365909090909091
+Eastern Mediterranean,1996,htn_ctrl_std,4.6068181818181815
+Eastern Mediterranean,1996,htn_tx_crude,20.313636363636363
+Eastern Mediterranean,1996,htn_tx_std,22.71136363636364
+Eastern Mediterranean,1997,diab_tx_crude,34.78884959090909
+Eastern Mediterranean,1997,diab_tx_std,36.857808
+Eastern Mediterranean,1997,htn_ctrl_crude,4.534090909090909
+Eastern Mediterranean,1997,htn_ctrl_std,4.781818181818182
+Eastern Mediterranean,1997,htn_tx_crude,20.879545454545454
+Eastern Mediterranean,1997,htn_tx_std,23.375
+Eastern Mediterranean,1998,diab_tx_crude,35.195741568181816
+Eastern Mediterranean,1998,diab_tx_std,37.30912011363636
+Eastern Mediterranean,1998,htn_ctrl_crude,4.738636363636363
+Eastern Mediterranean,1998,htn_ctrl_std,5.0
+Eastern Mediterranean,1998,htn_tx_crude,21.5
+Eastern Mediterranean,1998,htn_tx_std,24.088636363636365
+Eastern Mediterranean,1999,diab_tx_crude,35.61709788636364
+Eastern Mediterranean,1999,diab_tx_std,37.773753886363636
+Eastern Mediterranean,1999,htn_ctrl_crude,4.970454545454546
+Eastern Mediterranean,1999,htn_ctrl_std,5.2749999999999995
+Eastern Mediterranean,1999,htn_tx_crude,22.188636363636363
+Eastern Mediterranean,1999,htn_tx_std,24.86590909090909
+Eastern Mediterranean,2000,diab_tx_crude,36.04957713636364
+Eastern Mediterranean,2000,diab_tx_std,38.253001136363636
+Eastern Mediterranean,2000,htn_ctrl_crude,5.2704545454545455
+Eastern Mediterranean,2000,htn_ctrl_std,5.613636363636363
+Eastern Mediterranean,2000,htn_tx_crude,22.929545454545455
+Eastern Mediterranean,2000,htn_tx_std,25.704545454545453
+Eastern Mediterranean,2001,diab_tx_crude,36.49078895454546
+Eastern Mediterranean,2001,diab_tx_std,38.74612411363636
+Eastern Mediterranean,2001,htn_ctrl_crude,5.631818181818182
+Eastern Mediterranean,2001,htn_ctrl_std,6.013636363636365
+Eastern Mediterranean,2001,htn_tx_crude,23.738636363636363
+Eastern Mediterranean,2001,htn_tx_std,26.629545454545454
+Eastern Mediterranean,2002,diab_tx_crude,36.94656934090909
+Eastern Mediterranean,2002,diab_tx_std,39.25748631818182
+Eastern Mediterranean,2002,htn_ctrl_crude,6.056818181818182
+Eastern Mediterranean,2002,htn_ctrl_std,6.488636363636363
+Eastern Mediterranean,2002,htn_tx_crude,24.63181818181818
+Eastern Mediterranean,2002,htn_tx_std,27.65
+Eastern Mediterranean,2003,diab_tx_crude,37.41297218181818
+Eastern Mediterranean,2003,diab_tx_std,39.78629963636364
+Eastern Mediterranean,2003,htn_ctrl_crude,6.581818181818182
+Eastern Mediterranean,2003,htn_ctrl_std,7.072727272727272
+Eastern Mediterranean,2003,htn_tx_crude,25.597727272727273
+Eastern Mediterranean,2003,htn_tx_std,28.745454545454546
+Eastern Mediterranean,2004,diab_tx_crude,37.88349397727273
+Eastern Mediterranean,2004,diab_tx_std,40.32246681818182
+Eastern Mediterranean,2004,htn_ctrl_crude,7.1863636363636365
+Eastern Mediterranean,2004,htn_ctrl_std,7.734090909090909
+Eastern Mediterranean,2004,htn_tx_crude,26.622727272727275
+Eastern Mediterranean,2004,htn_tx_std,29.91818181818182
+Eastern Mediterranean,2005,diab_tx_crude,38.36253275
+Eastern Mediterranean,2005,diab_tx_std,40.86104188636364
+Eastern Mediterranean,2005,htn_ctrl_crude,7.861363636363635
+Eastern Mediterranean,2005,htn_ctrl_std,8.48409090909091
+Eastern Mediterranean,2005,htn_tx_crude,27.688636363636363
+Eastern Mediterranean,2005,htn_tx_std,31.1
+Eastern Mediterranean,2006,diab_tx_crude,38.82667759090909
+Eastern Mediterranean,2006,diab_tx_std,41.39577881818182
+Eastern Mediterranean,2006,htn_ctrl_crude,8.581818181818182
+Eastern Mediterranean,2006,htn_ctrl_std,9.295454545454545
+Eastern Mediterranean,2006,htn_tx_crude,28.686363636363637
+Eastern Mediterranean,2006,htn_tx_std,32.27045454545455
+Eastern Mediterranean,2007,diab_tx_crude,39.257588295454546
+Eastern Mediterranean,2007,diab_tx_std,41.92263838636364
+Eastern Mediterranean,2007,htn_ctrl_crude,9.318181818181818
+Eastern Mediterranean,2007,htn_ctrl_std,10.127272727272727
+Eastern Mediterranean,2007,htn_tx_crude,29.645454545454548
+Eastern Mediterranean,2007,htn_tx_std,33.38409090909091
+Eastern Mediterranean,2008,diab_tx_crude,39.68516636363636
+Eastern Mediterranean,2008,diab_tx_std,42.44196397727273
+Eastern Mediterranean,2008,htn_ctrl_crude,10.063636363636364
+Eastern Mediterranean,2008,htn_ctrl_std,10.970454545454546
+Eastern Mediterranean,2008,htn_tx_crude,30.556818181818183
+Eastern Mediterranean,2008,htn_tx_std,34.425000000000004
+Eastern Mediterranean,2009,diab_tx_crude,40.12140002272727
+Eastern Mediterranean,2009,diab_tx_std,42.95328615909091
+Eastern Mediterranean,2009,htn_ctrl_crude,10.784090909090908
+Eastern Mediterranean,2009,htn_ctrl_std,11.770454545454545
+Eastern Mediterranean,2009,htn_tx_crude,31.393181818181816
+Eastern Mediterranean,2009,htn_tx_std,35.39090909090909
+Eastern Mediterranean,2010,diab_tx_crude,40.55784538636363
+Eastern Mediterranean,2010,diab_tx_std,43.45099136363636
+Eastern Mediterranean,2010,htn_ctrl_crude,11.495454545454546
+Eastern Mediterranean,2010,htn_ctrl_std,12.586363636363636
+Eastern Mediterranean,2010,htn_tx_crude,32.18181818181818
+Eastern Mediterranean,2010,htn_tx_std,36.279545454545456
+Eastern Mediterranean,2011,diab_tx_crude,40.99089263636363
+Eastern Mediterranean,2011,diab_tx_std,43.92775420454546
+Eastern Mediterranean,2011,htn_ctrl_crude,12.2
+Eastern Mediterranean,2011,htn_ctrl_std,13.370454545454544
+Eastern Mediterranean,2011,htn_tx_crude,32.91818181818182
+Eastern Mediterranean,2011,htn_tx_std,37.08863636363637
+Eastern Mediterranean,2012,diab_tx_crude,41.40360090909091
+Eastern Mediterranean,2012,diab_tx_std,44.369828250000005
+Eastern Mediterranean,2012,htn_ctrl_crude,12.888636363636364
+Eastern Mediterranean,2012,htn_ctrl_std,14.145454545454545
+Eastern Mediterranean,2012,htn_tx_crude,33.59090909090909
+Eastern Mediterranean,2012,htn_tx_std,37.824999999999996
+Eastern Mediterranean,2013,diab_tx_crude,41.77836588636364
+Eastern Mediterranean,2013,diab_tx_std,44.764329454545454
+Eastern Mediterranean,2013,htn_ctrl_crude,13.52727272727273
+Eastern Mediterranean,2013,htn_ctrl_std,14.865909090909092
+Eastern Mediterranean,2013,htn_tx_crude,34.19318181818182
+Eastern Mediterranean,2013,htn_tx_std,38.46363636363637
+Eastern Mediterranean,2014,diab_tx_crude,42.10295879545455
+Eastern Mediterranean,2014,diab_tx_std,45.10085075
+Eastern Mediterranean,2014,htn_ctrl_crude,14.115909090909092
+Eastern Mediterranean,2014,htn_ctrl_std,15.518181818181818
+Eastern Mediterranean,2014,htn_tx_crude,34.73636363636364
+Eastern Mediterranean,2014,htn_tx_std,39.02272727272727
+Eastern Mediterranean,2015,diab_tx_crude,42.3681075
+Eastern Mediterranean,2015,diab_tx_std,45.37318870454545
+Eastern Mediterranean,2015,htn_ctrl_crude,14.661363636363637
+Eastern Mediterranean,2015,htn_ctrl_std,16.10909090909091
+Eastern Mediterranean,2015,htn_tx_crude,35.23409090909091
+Eastern Mediterranean,2015,htn_tx_std,39.53181818181818
+Eastern Mediterranean,2016,diab_tx_crude,42.57914295454545
+Eastern Mediterranean,2016,diab_tx_std,45.576652386363634
+Eastern Mediterranean,2016,htn_ctrl_crude,15.18409090909091
+Eastern Mediterranean,2016,htn_ctrl_std,16.661363636363635
+Eastern Mediterranean,2016,htn_tx_crude,35.77045454545455
+Eastern Mediterranean,2016,htn_tx_std,40.01590909090909
+Eastern Mediterranean,2017,diab_tx_crude,42.77438963636364
+Eastern Mediterranean,2017,diab_tx_std,45.74721622727273
+Eastern Mediterranean,2017,htn_ctrl_crude,15.568181818181818
+Eastern Mediterranean,2017,htn_ctrl_std,17.070454545454545
+Eastern Mediterranean,2017,htn_tx_crude,36.154545454545456
+Eastern Mediterranean,2017,htn_tx_std,40.33409090909091
+Eastern Mediterranean,2018,diab_tx_crude,42.98230888636363
+Eastern Mediterranean,2018,diab_tx_std,45.92196993181818
+Eastern Mediterranean,2018,htn_ctrl_crude,16.10909090909091
+Eastern Mediterranean,2018,htn_ctrl_std,17.620454545454546
+Eastern Mediterranean,2018,htn_tx_crude,36.586363636363636
+Eastern Mediterranean,2018,htn_tx_std,40.69772727272727
+Eastern Mediterranean,2019,diab_tx_crude,43.21985047727273
+Eastern Mediterranean,2019,diab_tx_std,46.10789847727273
+Eastern Mediterranean,2019,htn_ctrl_crude,16.69090909090909
+Eastern Mediterranean,2019,htn_ctrl_std,18.21590909090909
+Eastern Mediterranean,2019,htn_tx_crude,37.029545454545456
+Eastern Mediterranean,2019,htn_tx_std,41.050000000000004
+Eastern Mediterranean,2020,diab_tx_crude,43.49388227272727
+Eastern Mediterranean,2020,diab_tx_std,46.30064881818182
+Eastern Mediterranean,2021,diab_tx_crude,43.686147522727275
+Eastern Mediterranean,2021,diab_tx_std,46.49776756818182
+Eastern Mediterranean,2022,diab_tx_crude,43.83755827272727
+Eastern Mediterranean,2022,diab_tx_std,46.69175147727273
+European,1990,diab_tx_crude,34.406127424509805
+European,1990,diab_tx_std,34.03861831470588
+European,1990,htn_ctrl_crude,5.200980392156863
+European,1990,htn_ctrl_std,5.253921568627451
+European,1990,htn_tx_crude,26.647058823529413
+European,1990,htn_tx_std,25.90686274509804
+European,1991,diab_tx_crude,34.87559583431373
+European,1991,diab_tx_std,34.496686645098045
+European,1991,htn_ctrl_crude,5.398039215686275
+European,1991,htn_ctrl_std,5.452941176470588
+European,1991,htn_tx_crude,27.508823529411767
+European,1991,htn_tx_std,26.758823529411767
+European,1992,diab_tx_crude,35.37347246078431
+European,1992,diab_tx_std,34.97611566960784
+European,1992,htn_ctrl_crude,5.633333333333334
+European,1992,htn_ctrl_std,5.686274509803922
+European,1992,htn_tx_crude,28.402941176470588
+European,1992,htn_tx_std,27.650000000000002
+European,1993,diab_tx_crude,35.893133351960785
+European,1993,diab_tx_std,35.476437890196074
+European,1993,htn_ctrl_crude,5.934313725490195
+European,1993,htn_ctrl_std,5.973529411764705
+European,1993,htn_tx_crude,29.359803921568627
+European,1993,htn_tx_std,28.58823529411765
+European,1994,diab_tx_crude,36.43019153137255
+European,1994,diab_tx_std,35.9977619372549
+European,1994,htn_ctrl_crude,6.301960784313725
+European,1994,htn_ctrl_std,6.334313725490197
+European,1994,htn_tx_crude,30.400000000000002
+European,1994,htn_tx_std,29.58137254901961
+European,1995,diab_tx_crude,36.991333867647064
+European,1995,diab_tx_std,36.54374929509804
+European,1995,htn_ctrl_crude,6.748039215686274
+European,1995,htn_ctrl_std,6.771568627450981
+European,1995,htn_tx_crude,31.50980392156863
+European,1995,htn_tx_std,30.62156862745098
+European,1996,diab_tx_crude,37.5857459127451
+European,1996,diab_tx_std,37.11655597843137
+European,1996,htn_ctrl_crude,7.259803921568627
+European,1996,htn_ctrl_std,7.2745098039215685
+European,1996,htn_tx_crude,32.64509803921569
+European,1996,htn_tx_std,31.699019607843137
+European,1997,diab_tx_crude,38.212873200000004
+European,1997,diab_tx_std,37.71560979901961
+European,1997,htn_ctrl_crude,7.830392156862746
+European,1997,htn_ctrl_std,7.836274509803921
+European,1997,htn_tx_crude,33.84313725490196
+European,1997,htn_tx_std,32.8156862745098
+European,1998,diab_tx_crude,38.86270330882353
+European,1998,diab_tx_std,38.33982691666667
+European,1998,htn_ctrl_crude,8.46078431372549
+European,1998,htn_ctrl_std,8.445098039215686
+European,1998,htn_tx_crude,35.06372549019608
+European,1998,htn_tx_std,33.94705882352941
+European,1999,diab_tx_crude,39.53404380294118
+European,1999,diab_tx_std,38.99058670392157
+European,1999,htn_ctrl_crude,9.129411764705884
+European,1999,htn_ctrl_std,9.1
+European,1999,htn_tx_crude,36.293137254901964
+European,1999,htn_tx_std,35.09803921568628
+European,2000,diab_tx_crude,40.22922369705882
+European,2000,diab_tx_std,39.66388012745098
+European,2000,htn_ctrl_crude,9.850980392156861
+European,2000,htn_ctrl_std,9.797058823529412
+European,2000,htn_tx_crude,37.54019607843137
+European,2000,htn_tx_std,36.26470588235294
+European,2001,diab_tx_crude,40.957589365686275
+European,2001,diab_tx_std,40.36063064705883
+European,2001,htn_ctrl_crude,10.627450980392156
+European,2001,htn_ctrl_std,10.556862745098039
+European,2001,htn_tx_crude,38.78921568627451
+European,2001,htn_tx_std,37.46568627450981
+European,2002,diab_tx_crude,41.714773164705875
+European,2002,diab_tx_std,41.0803539372549
+European,2002,htn_ctrl_crude,11.47549019607843
+European,2002,htn_ctrl_std,11.380392156862746
+European,2002,htn_tx_crude,40.05490196078431
+European,2002,htn_tx_std,38.693137254901956
+European,2003,diab_tx_crude,42.48877056372549
+European,2003,diab_tx_std,41.820964366666665
+European,2003,htn_ctrl_crude,12.395098039215686
+European,2003,htn_ctrl_std,12.27843137254902
+European,2003,htn_tx_crude,41.34019607843137
+European,2003,htn_tx_std,39.93333333333333
+European,2004,diab_tx_crude,43.26948910196079
+European,2004,diab_tx_std,42.573287426470586
+European,2004,htn_ctrl_crude,13.392156862745098
+European,2004,htn_ctrl_std,13.242156862745098
+European,2004,htn_tx_crude,42.63235294117647
+European,2004,htn_tx_std,41.16960784313726
+European,2005,diab_tx_crude,44.05547973431372
+European,2005,diab_tx_std,43.33501208235294
+European,2005,htn_ctrl_crude,14.427450980392155
+European,2005,htn_ctrl_std,14.246078431372547
+European,2005,htn_tx_crude,43.88333333333334
+European,2005,htn_tx_std,42.37058823529412
+European,2006,diab_tx_crude,44.845239780392156
+European,2006,diab_tx_std,44.099042649999994
+European,2006,htn_ctrl_crude,15.477450980392158
+European,2006,htn_ctrl_std,15.253921568627453
+European,2006,htn_tx_crude,45.05490196078432
+European,2006,htn_tx_std,43.489215686274505
+European,2007,diab_tx_crude,45.646894042156866
+European,2007,diab_tx_std,44.86714378627451
+European,2007,htn_ctrl_crude,16.500980392156862
+European,2007,htn_ctrl_std,16.242156862745098
+European,2007,htn_tx_crude,46.1421568627451
+European,2007,htn_tx_std,44.516666666666666
+European,2008,diab_tx_crude,46.45937724705882
+European,2008,diab_tx_std,45.63998394215686
+European,2008,htn_ctrl_crude,17.483333333333334
+European,2008,htn_ctrl_std,17.188235294117646
+European,2008,htn_tx_crude,47.146078431372544
+European,2008,htn_tx_std,45.44705882352942
+European,2009,diab_tx_crude,47.29090896470588
+European,2009,diab_tx_std,46.42132741176471
+European,2009,htn_ctrl_crude,18.419607843137253
+European,2009,htn_ctrl_std,18.073529411764707
+European,2009,htn_tx_crude,48.068627450980394
+European,2009,htn_tx_std,46.28431372549019
+European,2010,diab_tx_crude,48.136843297058824
+European,2010,diab_tx_std,47.2091630245098
+European,2010,htn_ctrl_crude,19.327450980392157
+European,2010,htn_ctrl_std,18.937254901960785
+European,2010,htn_tx_crude,48.92843137254902
+European,2010,htn_tx_std,47.05098039215686
+European,2011,diab_tx_crude,48.99161900196078
+European,2011,diab_tx_std,48.00031090294117
+European,2011,htn_ctrl_crude,20.189215686274512
+European,2011,htn_ctrl_std,19.751960784313727
+European,2011,htn_tx_crude,49.69607843137255
+European,2011,htn_tx_std,47.741176470588236
+European,2012,diab_tx_crude,49.85128090882353
+European,2012,diab_tx_std,48.78863875784314
+European,2012,htn_ctrl_crude,21.018627450980393
+European,2012,htn_ctrl_std,20.530392156862746
+European,2012,htn_tx_crude,50.40980392156863
+European,2012,htn_tx_std,48.34705882352941
+European,2013,diab_tx_crude,50.70597761764706
+European,2013,diab_tx_std,49.566616000980396
+European,2013,htn_ctrl_crude,21.797058823529415
+European,2013,htn_ctrl_std,21.254901960784313
+European,2013,htn_tx_crude,51.030392156862746
+European,2013,htn_tx_std,48.87058823529412
+European,2014,diab_tx_crude,51.55257127254902
+European,2014,diab_tx_std,50.33050610686275
+European,2014,htn_ctrl_crude,22.519607843137255
+European,2014,htn_ctrl_std,21.922549019607843
+European,2014,htn_tx_crude,51.588235294117645
+European,2014,htn_tx_std,49.32254901960784
+European,2015,diab_tx_crude,52.38162058137255
+European,2015,diab_tx_std,51.075594710784316
+European,2015,htn_ctrl_crude,23.192156862745097
+European,2015,htn_ctrl_std,22.528431372549022
+European,2015,htn_tx_crude,52.103921568627456
+European,2015,htn_tx_std,49.70490196078431
+European,2016,diab_tx_crude,53.186714913725496
+European,2016,diab_tx_std,51.7973464882353
+European,2016,htn_ctrl_crude,23.834313725490194
+European,2016,htn_ctrl_std,23.11764705882353
+European,2016,htn_tx_crude,52.561764705882354
+European,2016,htn_tx_std,50.0735294117647
+European,2017,diab_tx_crude,53.96737869509804
+European,2017,diab_tx_std,52.494024270588234
+European,2017,htn_ctrl_crude,24.426470588235293
+European,2017,htn_ctrl_std,23.648039215686275
+European,2017,htn_tx_crude,52.95294117647059
+European,2017,htn_tx_std,50.36372549019608
+European,2018,diab_tx_crude,54.72544272745098
+European,2018,diab_tx_std,53.16697771862745
+European,2018,htn_ctrl_crude,25.071568627450983
+European,2018,htn_ctrl_std,24.230392156862745
+European,2018,htn_tx_crude,53.36078431372549
+European,2018,htn_tx_std,50.660784313725486
+European,2019,diab_tx_crude,55.467158146078425
+European,2019,diab_tx_std,53.82154176666667
+European,2019,htn_ctrl_crude,25.75980392156863
+European,2019,htn_ctrl_std,24.850980392156863
+European,2019,htn_tx_crude,53.77058823529412
+European,2019,htn_tx_std,50.94607843137255
+European,2020,diab_tx_crude,56.18969901862745
+European,2020,diab_tx_std,54.4618795882353
+European,2021,diab_tx_crude,56.88738730882353
+European,2021,diab_tx_std,55.087821088235295
+European,2022,diab_tx_crude,57.567011519607846
+European,2022,diab_tx_std,55.696513411764705
+South-East Asia,1990,diab_tx_crude,23.466221400000002
+South-East Asia,1990,diab_tx_std,23.87413345
+South-East Asia,1990,htn_ctrl_crude,3.425
+South-East Asia,1990,htn_ctrl_std,3.3549999999999995
+South-East Asia,1990,htn_tx_crude,12.345
+South-East Asia,1990,htn_tx_std,12.635
+South-East Asia,1991,diab_tx_crude,23.6951201
+South-East Asia,1991,diab_tx_std,24.1282602
+South-East Asia,1991,htn_ctrl_crude,3.505
+South-East Asia,1991,htn_ctrl_std,3.435
+South-East Asia,1991,htn_tx_crude,12.825
+South-East Asia,1991,htn_tx_std,13.13
+South-East Asia,1992,diab_tx_crude,23.9340853
+South-East Asia,1992,diab_tx_std,24.39492895
+South-East Asia,1992,htn_ctrl_crude,3.6399999999999997
+South-East Asia,1992,htn_ctrl_std,3.56
+South-East Asia,1992,htn_tx_crude,13.334999999999999
+South-East Asia,1992,htn_tx_std,13.655000000000001
+South-East Asia,1993,diab_tx_crude,24.18004225
+South-East Asia,1993,diab_tx_std,24.6725377
+South-East Asia,1993,htn_ctrl_crude,3.78
+South-East Asia,1993,htn_ctrl_std,3.72
+South-East Asia,1993,htn_tx_crude,13.865
+South-East Asia,1993,htn_tx_std,14.245
+South-East Asia,1994,diab_tx_crude,24.43344275
+South-East Asia,1994,diab_tx_std,24.958834799999998
+South-East Asia,1994,htn_ctrl_crude,3.9549999999999996
+South-East Asia,1994,htn_ctrl_std,3.9
+South-East Asia,1994,htn_tx_crude,14.455000000000002
+South-East Asia,1994,htn_tx_std,14.830000000000002
+South-East Asia,1995,diab_tx_crude,24.697204499999998
+South-East Asia,1995,diab_tx_std,25.25183585
+South-East Asia,1995,htn_ctrl_crude,4.165
+South-East Asia,1995,htn_ctrl_std,4.12
+South-East Asia,1995,htn_tx_crude,15.080000000000002
+South-East Asia,1995,htn_tx_std,15.475
+South-East Asia,1996,diab_tx_crude,24.9717239
+South-East Asia,1996,diab_tx_std,25.5507066
+South-East Asia,1996,htn_ctrl_crude,4.415
+South-East Asia,1996,htn_ctrl_std,4.39
+South-East Asia,1996,htn_tx_crude,15.719999999999999
+South-East Asia,1996,htn_tx_std,16.16
+South-East Asia,1997,diab_tx_crude,25.25309125
+South-East Asia,1997,diab_tx_std,25.85520535
+South-East Asia,1997,htn_ctrl_crude,4.68
+South-East Asia,1997,htn_ctrl_std,4.675
+South-East Asia,1997,htn_tx_crude,16.380000000000003
+South-East Asia,1997,htn_tx_std,16.89
+South-East Asia,1998,diab_tx_crude,25.5383945
+South-East Asia,1998,diab_tx_std,26.16116315
+South-East Asia,1998,htn_ctrl_crude,4.9799999999999995
+South-East Asia,1998,htn_ctrl_std,4.965
+South-East Asia,1998,htn_tx_crude,17.080000000000002
+South-East Asia,1998,htn_tx_std,17.634999999999998
+South-East Asia,1999,diab_tx_crude,25.830732949999998
+South-East Asia,1999,diab_tx_std,26.46796735
+South-East Asia,1999,htn_ctrl_crude,5.3100000000000005
+South-East Asia,1999,htn_ctrl_std,5.32
+South-East Asia,1999,htn_tx_crude,17.835
+South-East Asia,1999,htn_tx_std,18.43
+South-East Asia,2000,diab_tx_crude,26.1313618
+South-East Asia,2000,diab_tx_std,26.775804549999997
+South-East Asia,2000,htn_ctrl_crude,5.695
+South-East Asia,2000,htn_ctrl_std,5.71
+South-East Asia,2000,htn_tx_crude,18.615000000000002
+South-East Asia,2000,htn_tx_std,19.259999999999998
+South-East Asia,2001,diab_tx_crude,26.43469735
+South-East Asia,2001,diab_tx_std,27.08521935
+South-East Asia,2001,htn_ctrl_crude,6.08
+South-East Asia,2001,htn_ctrl_std,6.125
+South-East Asia,2001,htn_tx_crude,19.46
+South-East Asia,2001,htn_tx_std,20.130000000000003
+South-East Asia,2002,diab_tx_crude,26.73850375
+South-East Asia,2002,diab_tx_std,27.394329149999997
+South-East Asia,2002,htn_ctrl_crude,6.525
+South-East Asia,2002,htn_ctrl_std,6.575
+South-East Asia,2002,htn_tx_crude,20.35
+South-East Asia,2002,htn_tx_std,21.06
+South-East Asia,2003,diab_tx_crude,27.046236
+South-East Asia,2003,diab_tx_std,27.70210695
+South-East Asia,2003,htn_ctrl_crude,7.0200000000000005
+South-East Asia,2003,htn_ctrl_std,7.08
+South-East Asia,2003,htn_tx_crude,21.3
+South-East Asia,2003,htn_tx_std,22.044999999999998
+South-East Asia,2004,diab_tx_crude,27.353684750000003
+South-East Asia,2004,diab_tx_std,28.002842750000003
+South-East Asia,2004,htn_ctrl_crude,7.545
+South-East Asia,2004,htn_ctrl_std,7.625
+South-East Asia,2004,htn_tx_crude,22.275
+South-East Asia,2004,htn_tx_std,23.05
+South-East Asia,2005,diab_tx_crude,27.671114950000003
+South-East Asia,2005,diab_tx_std,28.294192099999997
+South-East Asia,2005,htn_ctrl_crude,8.1
+South-East Asia,2005,htn_ctrl_std,8.205
+South-East Asia,2005,htn_tx_crude,23.265
+South-East Asia,2005,htn_tx_std,24.06
+South-East Asia,2006,diab_tx_crude,27.985338050000003
+South-East Asia,2006,diab_tx_std,28.569687549999998
+South-East Asia,2006,htn_ctrl_crude,8.66
+South-East Asia,2006,htn_ctrl_std,8.78
+South-East Asia,2006,htn_tx_crude,24.23
+South-East Asia,2006,htn_tx_std,25.044999999999998
+South-East Asia,2007,diab_tx_crude,28.2770593
+South-East Asia,2007,diab_tx_std,28.82617405
+South-East Asia,2007,htn_ctrl_crude,9.24
+South-East Asia,2007,htn_ctrl_std,9.365
+South-East Asia,2007,htn_tx_crude,25.14
+South-East Asia,2007,htn_tx_std,25.975
+South-East Asia,2008,diab_tx_crude,28.5527432
+South-East Asia,2008,diab_tx_std,29.067337449999997
+South-East Asia,2008,htn_ctrl_crude,9.785
+South-East Asia,2008,htn_ctrl_std,9.925
+South-East Asia,2008,htn_tx_crude,25.99
+South-East Asia,2008,htn_tx_std,26.830000000000002
+South-East Asia,2009,diab_tx_crude,28.8096306
+South-East Asia,2009,diab_tx_std,29.292033249999996
+South-East Asia,2009,htn_ctrl_crude,10.309999999999999
+South-East Asia,2009,htn_ctrl_std,10.455
+South-East Asia,2009,htn_tx_crude,26.77
+South-East Asia,2009,htn_tx_std,27.605
+South-East Asia,2010,diab_tx_crude,29.045128
+South-East Asia,2010,diab_tx_std,29.4988943
+South-East Asia,2010,htn_ctrl_crude,10.809999999999999
+South-East Asia,2010,htn_ctrl_std,10.955
+South-East Asia,2010,htn_tx_crude,27.475
+South-East Asia,2010,htn_tx_std,28.3
+South-East Asia,2011,diab_tx_crude,29.25553
+South-East Asia,2011,diab_tx_std,29.689315099999998
+South-East Asia,2011,htn_ctrl_crude,11.285
+South-East Asia,2011,htn_ctrl_std,11.425
+South-East Asia,2011,htn_tx_crude,28.085
+South-East Asia,2011,htn_tx_std,28.919999999999998
+South-East Asia,2012,diab_tx_crude,29.44851245
+South-East Asia,2012,diab_tx_std,29.8652143
+South-East Asia,2012,htn_ctrl_crude,11.735
+South-East Asia,2012,htn_ctrl_std,11.905
+South-East Asia,2012,htn_tx_crude,28.635
+South-East Asia,2012,htn_tx_std,29.455000000000002
+South-East Asia,2013,diab_tx_crude,29.631210599999996
+South-East Asia,2013,diab_tx_std,30.025537500000002
+South-East Asia,2013,htn_ctrl_crude,12.165000000000001
+South-East Asia,2013,htn_ctrl_std,12.34
+South-East Asia,2013,htn_tx_crude,29.135
+South-East Asia,2013,htn_tx_std,29.945
+South-East Asia,2014,diab_tx_crude,29.8037469
+South-East Asia,2014,diab_tx_std,30.172099300000003
+South-East Asia,2014,htn_ctrl_crude,12.605
+South-East Asia,2014,htn_ctrl_std,12.775
+South-East Asia,2014,htn_tx_crude,29.610000000000003
+South-East Asia,2014,htn_tx_std,30.385
+South-East Asia,2015,diab_tx_crude,29.967200650000002
+South-East Asia,2015,diab_tx_std,30.30483075
+South-East Asia,2015,htn_ctrl_crude,13.025
+South-East Asia,2015,htn_ctrl_std,13.194999999999999
+South-East Asia,2015,htn_tx_crude,30.065000000000005
+South-East Asia,2015,htn_tx_std,30.8
+South-East Asia,2016,diab_tx_crude,30.11726815
+South-East Asia,2016,diab_tx_std,30.422624250000002
+South-East Asia,2016,htn_ctrl_crude,13.455000000000002
+South-East Asia,2016,htn_ctrl_std,13.625
+South-East Asia,2016,htn_tx_crude,30.494999999999997
+South-East Asia,2016,htn_tx_std,31.22
+South-East Asia,2017,diab_tx_crude,30.25806245
+South-East Asia,2017,diab_tx_std,30.52976215
+South-East Asia,2017,htn_ctrl_crude,13.89
+South-East Asia,2017,htn_ctrl_std,14.044999999999998
+South-East Asia,2017,htn_tx_crude,30.875
+South-East Asia,2017,htn_tx_std,31.589999999999996
+South-East Asia,2018,diab_tx_crude,30.39600125
+South-East Asia,2018,diab_tx_std,30.629506600000003
+South-East Asia,2018,htn_ctrl_crude,14.35
+South-East Asia,2018,htn_ctrl_std,14.505
+South-East Asia,2018,htn_tx_crude,31.294999999999998
+South-East Asia,2018,htn_tx_std,31.975
+South-East Asia,2019,diab_tx_crude,30.525611249999997
+South-East Asia,2019,diab_tx_std,30.72879655
+South-East Asia,2019,htn_ctrl_crude,14.865
+South-East Asia,2019,htn_ctrl_std,14.985
+South-East Asia,2019,htn_tx_crude,31.714999999999996
+South-East Asia,2019,htn_tx_std,32.345
+South-East Asia,2020,diab_tx_crude,30.649629599999997
+South-East Asia,2020,diab_tx_std,30.830306200000003
+South-East Asia,2021,diab_tx_crude,30.787610649999998
+South-East Asia,2021,diab_tx_std,30.93947865
+South-East Asia,2022,diab_tx_crude,30.9565251
+South-East Asia,2022,diab_tx_std,31.055426899999997
+Western Pacific,1990,diab_tx_crude,26.83788548275862
+Western Pacific,1990,diab_tx_std,27.762735637931037
+Western Pacific,1990,htn_ctrl_crude,5.382142857142857
+Western Pacific,1990,htn_ctrl_std,5.396551724137931
+Western Pacific,1990,htn_tx_crude,20.110714285714288
+Western Pacific,1990,htn_tx_std,20.977586206896554
+Western Pacific,1991,diab_tx_crude,26.84349794827586
+Western Pacific,1991,diab_tx_std,27.843138551724138
+Western Pacific,1991,htn_ctrl_crude,5.4750000000000005
+Western Pacific,1991,htn_ctrl_std,5.482758620689655
+Western Pacific,1991,htn_tx_crude,20.476785714285715
+Western Pacific,1991,htn_tx_std,21.36896551724138
+Western Pacific,1992,diab_tx_crude,26.870482413793102
+Western Pacific,1992,diab_tx_std,27.94091798275862
+Western Pacific,1992,htn_ctrl_crude,5.603571428571429
+Western Pacific,1992,htn_ctrl_std,5.612068965517241
+Western Pacific,1992,htn_tx_crude,20.864285714285717
+Western Pacific,1992,htn_tx_std,21.794827586206896
+Western Pacific,1993,diab_tx_crude,26.92175401724138
+Western Pacific,1993,diab_tx_std,28.05459601724138
+Western Pacific,1993,htn_ctrl_crude,5.764285714285714
+Western Pacific,1993,htn_ctrl_std,5.782758620689655
+Western Pacific,1993,htn_tx_crude,21.294642857142858
+Western Pacific,1993,htn_tx_std,22.25344827586207
+Western Pacific,1994,diab_tx_crude,26.999962482758622
+Western Pacific,1994,diab_tx_std,28.18410284482759
+Western Pacific,1994,htn_ctrl_crude,5.980357142857143
+Western Pacific,1994,htn_ctrl_std,6.0103448275862075
+Western Pacific,1994,htn_tx_crude,21.760714285714283
+Western Pacific,1994,htn_tx_std,22.7551724137931
+Western Pacific,1995,diab_tx_crude,27.10088372413793
+Western Pacific,1995,diab_tx_std,28.330198379310342
+Western Pacific,1995,htn_ctrl_crude,6.248214285714285
+Western Pacific,1995,htn_ctrl_std,6.26896551724138
+Western Pacific,1995,htn_tx_crude,22.255357142857143
+Western Pacific,1995,htn_tx_std,23.272413793103446
+Western Pacific,1996,diab_tx_crude,27.23253374137931
+Western Pacific,1996,diab_tx_std,28.496530879310345
+Western Pacific,1996,htn_ctrl_crude,6.553571428571429
+Western Pacific,1996,htn_ctrl_std,6.577586206896552
+Western Pacific,1996,htn_tx_crude,22.771428571428572
+Western Pacific,1996,htn_tx_std,23.810344827586206
+Western Pacific,1997,diab_tx_crude,27.397927379310346
+Western Pacific,1997,diab_tx_std,28.683096620689653
+Western Pacific,1997,htn_ctrl_crude,6.892857142857143
+Western Pacific,1997,htn_ctrl_std,6.925862068965517
+Western Pacific,1997,htn_tx_crude,23.307142857142857
+Western Pacific,1997,htn_tx_std,24.400000000000002
+Western Pacific,1998,diab_tx_crude,27.585787706896554
+Western Pacific,1998,diab_tx_std,28.88839103448276
+Western Pacific,1998,htn_ctrl_crude,7.271428571428571
+Western Pacific,1998,htn_ctrl_std,7.298275862068966
+Western Pacific,1998,htn_tx_crude,23.889285714285712
+Western Pacific,1998,htn_tx_std,25.00344827586207
+Western Pacific,1999,diab_tx_crude,27.80324625862069
+Western Pacific,1999,diab_tx_std,29.11595355172414
+Western Pacific,1999,htn_ctrl_crude,7.667857142857143
+Western Pacific,1999,htn_ctrl_std,7.720689655172414
+Western Pacific,1999,htn_tx_crude,24.49285714285714
+Western Pacific,1999,htn_tx_std,25.625862068965517
+Western Pacific,2000,diab_tx_crude,28.041504413793103
+Western Pacific,2000,diab_tx_std,29.363815568965517
+Western Pacific,2000,htn_ctrl_crude,8.126785714285715
+Western Pacific,2000,htn_ctrl_std,8.163793103448276
+Western Pacific,2000,htn_tx_crude,25.1375
+Western Pacific,2000,htn_tx_std,26.282758620689656
+Western Pacific,2001,diab_tx_crude,28.313392172413796
+Western Pacific,2001,diab_tx_std,29.635151827586206
+Western Pacific,2001,htn_ctrl_crude,8.619642857142857
+Western Pacific,2001,htn_ctrl_std,8.651724137931035
+Western Pacific,2001,htn_tx_crude,25.848214285714285
+Western Pacific,2001,htn_tx_std,26.98448275862069
+Western Pacific,2002,diab_tx_crude,28.623090362068968
+Western Pacific,2002,diab_tx_std,29.9287325
+Western Pacific,2002,htn_ctrl_crude,9.157142857142857
+Western Pacific,2002,htn_ctrl_std,9.186206896551724
+Western Pacific,2002,htn_tx_crude,26.601785714285715
+Western Pacific,2002,htn_tx_std,27.727586206896554
+Western Pacific,2003,diab_tx_crude,28.97521518965517
+Western Pacific,2003,diab_tx_std,30.24494668965517
+Western Pacific,2003,htn_ctrl_crude,9.739285714285714
+Western Pacific,2003,htn_ctrl_std,9.76896551724138
+Western Pacific,2003,htn_tx_crude,27.405357142857145
+Western Pacific,2003,htn_tx_std,28.49827586206897
+Western Pacific,2004,diab_tx_crude,29.3625045
+Western Pacific,2004,diab_tx_std,30.581560931034485
+Western Pacific,2004,htn_ctrl_crude,10.369642857142859
+Western Pacific,2004,htn_ctrl_std,10.382758620689655
+Western Pacific,2004,htn_tx_crude,28.251785714285713
+Western Pacific,2004,htn_tx_std,29.29310344827586
+Western Pacific,2005,diab_tx_crude,29.76166625862069
+Western Pacific,2005,diab_tx_std,30.93584048275862
+Western Pacific,2005,htn_ctrl_crude,11.010714285714286
+Western Pacific,2005,htn_ctrl_std,11.017241379310345
+Western Pacific,2005,htn_tx_crude,29.07857142857143
+Western Pacific,2005,htn_tx_std,30.07758620689655
+Western Pacific,2006,diab_tx_crude,30.17226598275862
+Western Pacific,2006,diab_tx_std,31.30048684482759
+Western Pacific,2006,htn_ctrl_crude,11.6625
+Western Pacific,2006,htn_ctrl_std,11.64655172413793
+Western Pacific,2006,htn_tx_crude,29.894642857142856
+Western Pacific,2006,htn_tx_std,30.83448275862069
+Western Pacific,2007,diab_tx_crude,30.593714000000002
+Western Pacific,2007,diab_tx_std,31.67191060344828
+Western Pacific,2007,htn_ctrl_crude,12.298214285714286
+Western Pacific,2007,htn_ctrl_std,12.244827586206897
+Western Pacific,2007,htn_tx_crude,30.669642857142858
+Western Pacific,2007,htn_tx_std,31.525862068965516
+Western Pacific,2008,diab_tx_crude,31.03322043103448
+Western Pacific,2008,diab_tx_std,32.05398210344828
+Western Pacific,2008,htn_ctrl_crude,12.891071428571427
+Western Pacific,2008,htn_ctrl_std,12.812068965517241
+Western Pacific,2008,htn_tx_crude,31.383928571428573
+Western Pacific,2008,htn_tx_std,32.16379310344828
+Western Pacific,2009,diab_tx_crude,31.485567086206895
+Western Pacific,2009,diab_tx_std,32.44629720689655
+Western Pacific,2009,htn_ctrl_crude,13.446428571428571
+Western Pacific,2009,htn_ctrl_std,13.33448275862069
+Western Pacific,2009,htn_tx_crude,32.03214285714286
+Western Pacific,2009,htn_tx_std,32.720689655172414
+Western Pacific,2010,diab_tx_crude,31.941295327586207
+Western Pacific,2010,diab_tx_std,32.84736187931035
+Western Pacific,2010,htn_ctrl_crude,13.978571428571428
+Western Pacific,2010,htn_ctrl_std,13.831034482758621
+Western Pacific,2010,htn_tx_crude,32.62678571428571
+Western Pacific,2010,htn_tx_std,33.21896551724138
+Western Pacific,2011,diab_tx_crude,32.401113172413794
+Western Pacific,2011,diab_tx_std,33.252061948275866
+Western Pacific,2011,htn_ctrl_crude,14.457142857142857
+Western Pacific,2011,htn_ctrl_std,14.279310344827588
+Western Pacific,2011,htn_tx_crude,33.13928571428571
+Western Pacific,2011,htn_tx_std,33.63448275862069
+Western Pacific,2012,diab_tx_crude,32.87297901724138
+Western Pacific,2012,diab_tx_std,33.65811293103448
+Western Pacific,2012,htn_ctrl_crude,14.926785714285714
+Western Pacific,2012,htn_ctrl_std,14.71206896551724
+Western Pacific,2012,htn_tx_crude,33.580357142857146
+Western Pacific,2012,htn_tx_std,33.99310344827586
+Western Pacific,2013,diab_tx_crude,33.35057787586207
+Western Pacific,2013,diab_tx_std,34.06160606896552
+Western Pacific,2013,htn_ctrl_crude,15.3625
+Western Pacific,2013,htn_ctrl_std,15.115517241379312
+Western Pacific,2013,htn_tx_crude,33.9625
+Western Pacific,2013,htn_tx_std,34.28793103448276
+Western Pacific,2014,diab_tx_crude,33.82615024310345
+Western Pacific,2014,diab_tx_std,34.46026217241379
+Western Pacific,2014,htn_ctrl_crude,15.778571428571428
+Western Pacific,2014,htn_ctrl_std,15.505172413793103
+Western Pacific,2014,htn_tx_crude,34.3125
+Western Pacific,2014,htn_tx_std,34.54137931034483
+Western Pacific,2015,diab_tx_crude,34.296058163793106
+Western Pacific,2015,diab_tx_std,34.85376410344828
+Western Pacific,2015,htn_ctrl_crude,16.18392857142857
+Western Pacific,2015,htn_ctrl_std,15.862068965517242
+Western Pacific,2015,htn_tx_crude,34.625
+Western Pacific,2015,htn_tx_std,34.744827586206895
+Western Pacific,2016,diab_tx_crude,34.74754089482759
+Western Pacific,2016,diab_tx_std,35.23566306896552
+Western Pacific,2016,htn_ctrl_crude,16.580357142857142
+Western Pacific,2016,htn_ctrl_std,16.22586206896552
+Western Pacific,2016,htn_tx_crude,34.917857142857144
+Western Pacific,2016,htn_tx_std,34.953448275862065
+Western Pacific,2017,diab_tx_crude,35.18988231724138
+Western Pacific,2017,diab_tx_std,35.610846879310344
+Western Pacific,2017,htn_ctrl_crude,16.964285714285715
+Western Pacific,2017,htn_ctrl_std,16.567241379310346
+Western Pacific,2017,htn_tx_crude,35.183928571428574
+Western Pacific,2017,htn_tx_std,35.11724137931034
+Western Pacific,2018,diab_tx_crude,35.63522929655172
+Western Pacific,2018,diab_tx_std,35.9827405862069
+Western Pacific,2018,htn_ctrl_crude,17.392857142857142
+Western Pacific,2018,htn_ctrl_std,16.95344827586207
+Western Pacific,2018,htn_tx_crude,35.480357142857144
+Western Pacific,2018,htn_tx_std,35.28793103448276
+Western Pacific,2019,diab_tx_crude,36.08282184482759
+Western Pacific,2019,diab_tx_std,36.35843881034483
+Western Pacific,2019,htn_ctrl_crude,17.867857142857144
+Western Pacific,2019,htn_ctrl_std,17.372413793103448
+Western Pacific,2019,htn_tx_crude,35.78035714285714
+Western Pacific,2019,htn_tx_std,35.463793103448275
+Western Pacific,2020,diab_tx_crude,36.5412658362069
+Western Pacific,2020,diab_tx_std,36.738010810344825
+Western Pacific,2021,diab_tx_crude,37.028488206896554
+Western Pacific,2021,diab_tx_std,37.12314117241379
+Western Pacific,2022,diab_tx_crude,37.52506953448276
+Western Pacific,2022,diab_tx_std,37.50922020689655
