@@ -1,26 +1,7 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-
-INDICATOR_LABELS = {
-    "diab_tx_std":
-        "Diabetes Treatment Coverage (Age-Standardized)",
-
-    "diab_tx_crude":
-        "Diabetes Treatment Coverage (Crude)",
-
-    "htn_ctrl_std":
-        "Hypertension Effective Control (Age-Standardized)",
-
-    "htn_ctrl_crude":
-        "Hypertension Effective Control (Crude)",
-
-    "htn_tx_std":
-        "Hypertension Treatment Coverage (Age-Standardized)",
-
-    "htn_tx_crude":
-        "Hypertension Treatment Coverage (Crude)",
-}
+from visualizations.labels import INDICATOR_LABELS
 
 
 def create_regional_income_comparison(
@@ -203,12 +184,16 @@ def create_regional_income_comparison(
             .reset_index()
         )
 
-        # Build hover information
+        # Build hover information. The income group is carried as a 4th field
+        # so a click on a bar can be resolved back to its group downstream
+        # (used by the dashboard's cross-filtering).
+        group_df["_income_group"] = str(income_group)
         customdata = group_df[
             [
                 "median",
                 "std",
                 "count",
+                "_income_group",
             ]
         ].to_numpy()
 

@@ -2,27 +2,7 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-
-# Human-readable names for indicator codes
-INDICATOR_LABELS = {
-    "diab_tx_std":
-        "Diabetes Treatment Coverage (Age-Standardized)",
-
-    "diab_tx_crude":
-        "Diabetes Treatment Coverage (Crude)",
-
-    "htn_ctrl_std":
-        "Hypertension Effective Control (Age-Standardized)",
-
-    "htn_ctrl_crude":
-        "Hypertension Effective Control (Crude)",
-
-    "htn_tx_std":
-        "Hypertension Treatment Coverage (Age-Standardized)",
-
-    "htn_tx_crude":
-        "Hypertension Treatment Coverage (Crude)",
-}
+from visualizations.labels import INDICATOR_LABELS
 
 
 # List of supported indicators
@@ -335,6 +315,11 @@ def create_temporal_trend_chart(
                 marker=dict(
                     size=6
                 ),
+
+                # Carry the entity name on every point so a click on the line
+                # can be resolved back to a country/region/income downstream
+                # (used by the dashboard's cross-filtering).
+                customdata=[str(entity)] * len(entity_df),
 
                 hovertemplate=(
                     f"<b>{entity}</b><br>"

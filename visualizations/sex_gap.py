@@ -1,31 +1,7 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-
-# HUMAN-READABLE INDICATOR LABELS
-
-INDICATOR_LABELS = {
-
-    "diab_tx_std":
-        "Diabetes Treatment Coverage (Age-Standardized)",
-
-    "diab_tx_crude":
-        "Diabetes Treatment Coverage (Crude)",
-
-    "htn_ctrl_std":
-        "Hypertension Effective Control Coverage "
-        "(Age-Standardized)",
-
-    "htn_ctrl_crude":
-        "Hypertension Effective Control Coverage (Crude)",
-
-    "htn_tx_std":
-        "Hypertension Treatment Coverage "
-        "(Age-Standardized)",
-
-    "htn_tx_crude":
-        "Hypertension Treatment Coverage (Crude)",
-}
+from visualizations.labels import INDICATOR_LABELS
 
 
 # TASK 2: SEX GAP ANALYSIS

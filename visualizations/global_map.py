@@ -2,15 +2,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-
-INDICATOR_LABELS = {
-    "diab_tx_std": "Diabetes Treatment Coverage (Age-Standardized)",
-    "diab_tx_crude": "Diabetes Treatment Coverage (Crude)",
-    "htn_ctrl_std": "Hypertension Effective Control (Age-Standardized)",
-    "htn_ctrl_crude": "Hypertension Effective Control (Crude)",
-    "htn_tx_std": "Hypertension Treatment Coverage (Age-Standardized)",
-    "htn_tx_crude": "Hypertension Treatment Coverage (Crude)",
-}
+from visualizations.labels import INDICATOR_LABELS
 
 
 def create_global_map(
