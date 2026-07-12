@@ -9,34 +9,12 @@
 
 <!-- ==================== TITLE PAGE ==================== -->
 <div class="titlepage">
-  <h1>Global Inequality in Diabetes and Hypertension Care:<br>
-      A Visual Analytics Study</h1>
-  <div class="subtitle">Who gets treated, who gets controlled &mdash; and the gap between</div>
+  <h1><span class="t-main">Global Inequality in Diabetes and Hypertension Care:</span><br>
+      <span class="t-sub">A Visual Analytics Study</span></h1>
 
   <div class="group">Group 5</div>
 
-  <div class="members">
-    <table>
-      <tr><td class="role" colspan="2">Data Processing, Cleaning &amp; Analytics</td></tr>
-      <tr><td>Stuti Singh</td><td class="roll">251083</td></tr>
-      <tr><td>Unnati Gangurde</td><td class="roll">231107</td></tr>
-
-      <tr><td class="role" colspan="2">Backend Development</td></tr>
-      <tr><td>Talakola Maha Lakshmi</td><td class="roll">241082</td></tr>
-      <tr><td>Khasha Meganakshtra</td><td class="roll">240542</td></tr>
-
-      <tr><td class="role" colspan="2">Visualization Development</td></tr>
-      <tr><td>Pyna Hema Lakshmi SatyaSree</td><td class="roll">240819</td></tr>
-      <tr><td>Sruja BG</td><td class="roll">240289</td></tr>
-      <tr><td>Annadevara Yashvanth Chary</td><td class="roll">240143</td></tr>
-
-      <tr><td class="role" colspan="2">Frontend Development</td></tr>
-      <tr><td>Mavilla Bharadwaja</td><td class="roll">251110021</td></tr>
-      <tr><td>Singampalli Sri Varshith</td><td class="roll">251110074</td></tr>
-    </table>
-  </div>
-
-  <div class="course">CS661 &mdash; Big Data Visual Analytics</div>
+  <div class="course">CS661 Big Data Visual Analytics</div>
   <div class="venue">Indian Institute of Technology Kanpur</div>
 </div>
 
@@ -44,7 +22,7 @@
 <div class="toc">
   <h2>Contents</h2>
   <ul>
-    <li class="l1"><a href="#s-repo">1&nbsp;&nbsp;Project Repository</a></li>
+    <li class="l1"><a href="#s-repo">1&nbsp;&nbsp;Project Repository and Live Deployment</a></li>
     <li class="l1"><a href="#s-intro">2&nbsp;&nbsp;Introduction</a></li>
     <li class="l1"><a href="#s-obj">3&nbsp;&nbsp;Objective</a></li>
     <li class="l1"><a href="#s-data">4&nbsp;&nbsp;Dataset and Preprocessing</a></li>
@@ -106,13 +84,22 @@
 </div>
 
 <!-- ==================== 1. REPOSITORY ==================== -->
-<h2 class="sec" id="s-repo">Project Repository</h2>
-<p>The complete codebase, prepared datasets, and documentation for this project are
-available on GitHub. The dashboard is a single-page Dash application; it is run
-with:</p>
+<h2 class="sec" id="s-repo">Project Repository and Live Deployment</h2>
+<p>The dashboard is deployed and publicly accessible &mdash; it can be used directly in
+a browser, with no installation:</p>
+<ul>
+  <li><b>Live application:</b>
+      <a class="url" href="https://global-health-dashboard-1.onrender.com/">https://global-health-dashboard-1.onrender.com/</a></li>
+  <li><b>Source repository:</b>
+      <a class="url" href="https://github.com/VarshithSS/global_health_dashboard">https://github.com/VarshithSS/global_health_dashboard</a></li>
+</ul>
+<p>The repository holds the complete codebase, the prepared datasets, and this
+documentation. The dashboard is a single-page Dash application; to run it locally
+instead:</p>
 <ul>
   <li><code>pip install -r requirements.txt</code></li>
-  <li>Run <code>python app.py</code>, then open <code>http://127.0.0.1:8054/</code></li>
+  <li>Run <code>python app.py</code>, then open <code>http://127.0.0.1:8050/</code>
+      (the port can be overridden with the <code>PORT</code> environment variable)</li>
 </ul>
 <p>The repository is organised so that the analytical layer and the presentation
 layer are cleanly separated: <code>data/</code> holds the eight prepared CSV tables,
@@ -317,7 +304,7 @@ layers both served from one process:</p>
   <li><b>Kaleido</b> &mdash; static export of the Plotly figures reproduced in this
       report, so that the figures shown here are rendered by the same code paths
       the live dashboard uses.</li>
-  <li><b>Git / GitHub</b> &mdash; version control across the four sub-teams.</li>
+  <li><b>Git / GitHub</b> &mdash; version control across the team.</li>
 </ul>
 <p>Two technologies named in the proposal were deliberately dropped. <b>D3.js</b> was
 not needed, for the reasons above. <b>SQLite</b> was listed as an optional storage
@@ -357,10 +344,10 @@ know that a dashboard exists, or read global state. Each validates its own input
 and raises on an impossible selection rather than silently returning an empty chart.</p>
 <p>Above them, <code>app.py</code> supplies everything the charts deliberately do not
 know about: the shared filter state, the cross-filter logic, the light theme, the
-caching layer, and the layout. This separation is what allowed four sub-teams to work
-in parallel &mdash; the visualization developers could build and test chart functions
-against a CSV without the application existing, and the frontend developers could
-restyle and re-link the entire interface without touching a single chart function.</p>
+caching layer, and the layout. This separation is what allowed the six tasks to be
+built in parallel &mdash; each task&rsquo;s chart function could be written and tested
+against a CSV without the application existing, and the integration layer could
+restyle and re-link the entire dashboard without touching a single chart function.</p>
 
 <h3 class="sub" id="s-sys-state">Shared Filter State and Cross-Filtering</h3>
 <p>All six views read from exactly one source of truth: a <code>dcc.Store</code>
@@ -1161,47 +1148,27 @@ claim in this report to be checked against a chart with no gaps in it.</p>
 <h2 class="sec" id="s-team">Team Contributions</h2>
 
 <table class="data long">
-  <caption>Group 5 &mdash; roles and contributions.</caption>
+  <caption>Group 5 &mdash; contributions by component.</caption>
   <thead>
-    <tr><th>Member</th><th class="num">Roll No.</th><th>Role</th><th>Contribution</th></tr>
+    <tr><th>Component</th><th>Member</th><th class="num">Roll No.</th></tr>
   </thead>
   <tbody>
-    <tr><td>Stuti Singh</td><td class="num">251083</td>
-        <td>Data Processing, Cleaning &amp; Analytics</td>
-        <td>Completeness audit of all 33 repository indicators; the scoping decision;
-            extraction and cleaning of the six NCD indicators.</td></tr>
-    <tr><td>Unnati Gangurde</td><td class="num">231107</td>
-        <td>Data Processing, Cleaning &amp; Analytics</td>
-        <td>Derived metrics (&Delta;Sex, &Delta;Leak, &Delta;Age); ISO-3 country-name
-            reconciliation; construction of the eight prepared analytical tables.</td></tr>
-    <tr><td>Talakola Maha Lakshmi</td><td class="num">241082</td>
-        <td>Backend Development</td>
-        <td>Data-loading and type-coercion layer; region/income scope resolution;
-            nearest-year fallback logic.</td></tr>
-    <tr><td>Khasha Meganakshtra</td><td class="num">240542</td>
-        <td>Backend Development</td>
-        <td>Aggregation pipeline for the region, income, and region&times;income summary
-            tables; LRU caching layer over the figure builders.</td></tr>
-    <tr><td>Pyna Hema Lakshmi SatyaSree</td><td class="num">240819</td>
-        <td>Visualization Development</td>
-        <td>Task 1 global choropleth; Task 3 temporal trend chart (country, region, and
-            income levels).</td></tr>
-    <tr><td>Sruja BG</td><td class="num">240289</td>
-        <td>Visualization Development</td>
-        <td>Task 2 sex-gap dumbbell chart; Task 5 region&times;income grouped bar chart with
-            error bars.</td></tr>
-    <tr><td>Annadevara Yashvanth Chary</td><td class="num">240143</td>
-        <td>Visualization Development</td>
-        <td>Task 4 treatment-to-control cascade; Task 6 crude vs. age-standardized paired
-            slope chart.</td></tr>
-    <tr><td>Mavilla Bharadwaja</td><td class="num">251110021</td>
-        <td>Frontend Development</td>
-        <td>Dashboard integration and layout; the shared filter store and cross-filter
-            reducer; KPI insight strip; light theme and chart re-theming; this report.</td></tr>
-    <tr><td>Singampalli Sri Varshith</td><td class="num">251110074</td>
-        <td>Frontend Development</td>
-        <td>Navigation rail and view switching; the command bar controls; per-view control
-            panels and interaction wiring.</td></tr>
+    <tr><td>Data Preprocessing</td>
+        <td>Stuti Singh</td><td class="num">251083</td></tr>
+    <tr><td>Task 1: Global Coverage Map</td>
+        <td>Annadevara Yashvanth Chary</td><td class="num">240143</td></tr>
+    <tr><td>Task 2: Sex Gap Analysis</td>
+        <td>Singampalli Sri Varshith</td><td class="num">251110074</td></tr>
+    <tr><td>Task 3: Temporal Trend Analysis</td>
+        <td>Mavilla Bharadwaja</td><td class="num">251110021</td></tr>
+    <tr><td>Task 4: Treatment-to-Control Cascade</td>
+        <td>Talakola Maha Lakshmi<br>Khasha Meganakshtra</td>
+        <td class="num">241082<br>240542</td></tr>
+    <tr><td>Task 5: Regional and Income-Group Comparison</td>
+        <td>Pyna Hema Lakshmi SatyaSree<br>Sruja BG</td>
+        <td class="num">240819<br>240289</td></tr>
+    <tr><td>Task 6: Age-Standardized vs. Crude Rate Comparison</td>
+        <td>Unnati Gangurde</td><td class="num">231107</td></tr>
   </tbody>
 </table>
 

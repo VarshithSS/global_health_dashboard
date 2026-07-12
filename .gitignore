@@ -1,2 +1,6 @@
 venv
 __pycache__/
+report/figures/*
+report/report.html
+report/report.css
+report/build_report.py

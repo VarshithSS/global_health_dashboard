@@ -31,20 +31,16 @@ body { margin: 0; counter-reset: sec fig tbl; }
 @page toc { border-top: none; }
 
 /* ---------- title page ---------- */
-.titlepage { page: first; text-align: center; padding-top: 34mm;
+.titlepage { page: first; text-align: center; padding-top: 62mm;
              break-after: page; }
-.titlepage h1 { font-size: 22pt; font-weight: normal; line-height: 1.28;
-                margin: 0 0 4mm 0; }
-.titlepage .subtitle { font-size: 13pt; margin-top: 2mm; color: #222; }
-.titlepage .group { font-size: 14pt; margin-top: 14mm; font-weight: bold; }
-.titlepage .course { font-size: 12pt; margin-top: 12mm; }
+/* The main title must sit on ONE line. It is sized to fit the measure, and the
+   page margins are bled into slightly to buy the width to do it at this size. */
+.titlepage h1 { font-size: 18pt; font-weight: normal; line-height: 1.45;
+                margin: 0 -11mm 4mm; }
+.titlepage .t-main { white-space: nowrap; }
+.titlepage .group { font-size: 15pt; margin-top: 20mm; font-weight: bold; }
+.titlepage .course { font-size: 12.5pt; margin-top: 26mm; }
 .titlepage .venue { font-size: 11pt; margin-top: 2mm; color: #333; }
-
-.members { margin: 8mm auto 0; width: 118mm; font-size: 10.5pt; }
-.members table { width: 100%; border-collapse: collapse; }
-.members td { padding: 1.6mm 2mm; text-align: left; vertical-align: top; }
-.members td.roll { text-align: right; color: #333; white-space: nowrap; }
-.members .role { font-weight: bold; padding-top: 3mm; border-bottom: 0.4pt solid #999; }
 
 /* ---------- table of contents ---------- */
 .toc { page: toc; break-after: page; }
