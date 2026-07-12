@@ -1,26 +1,30 @@
 """
-CS661 Group-5 — Global NCD Care Inequality Dashboard  ·  "MARK 2" UI
-=====================================================================
+CS661 Group-5 — Global NCD Care Inequality Dashboard
+====================================================
 
-An experimental redesign of the dashboard's front end. Same data, same six
-visualization tasks, same linked-filter / cross-filter / animation behaviour
-as app.py ("Mark 1") — but a completely new "Observatory" interface:
+The delivered single-page Dash application. It merges the group's six
+visualization tasks — global map, sex gap, temporal trend, treatment-to-control
+cascade, region/income comparison, and age-standardized vs. crude — into one
+linked dashboard, per Section 5 of the project proposal.
+
+The interface (earlier UI iterations are kept in old_code/):
 
     - a brand header + live KPI insight strip that summarises the current
       selection in four headline numbers,
-    - a sticky command bar for the six shared filters,
+    - a sticky command bar for the six shared filters (indicator, sex, WHO
+      region, income group, country, year),
     - a left navigation rail (instead of top tabs) that switches between the
       six analytical views,
-    - one cohesive dark chart theme with a validated, colour-blind-safe
-      categorical palette (dataviz skill: reference dark palette, CVD order)
-      and a branded sequential ramp for the choropleth.
+    - one cohesive dark chart theme with a colour-blind-safe categorical
+      palette and a branded sequential ramp for the choropleth.
 
-Mark 1 (app.py) is left completely untouched. This file only imports the pure
-create_*() chart functions and the shared label maps from `visualizations`,
-then rebuilds everything above them. Run with:
+This module owns everything the charts deliberately do not know about: the
+shared filter store, the cross-filter reducer, theming, caching, and layout. It
+imports the pure create_*() chart functions and the shared label maps from
+`visualizations/`, which have no knowledge of Dash. Run with:
 
-    python mark2.py
-    open http://127.0.0.1:8051/
+    python app.py
+    open http://127.0.0.1:8054/
 """
 
 from functools import lru_cache
@@ -159,7 +163,7 @@ PREFERRED_COMPARISON_COUNTRIES = [
 
 
 # =============================================================================
-# 3. DESIGN SYSTEM  (Mark 2 "Observatory" tokens + validated chart palette)
+# 3. DESIGN SYSTEM  (UI tokens + validated chart palette)
 # =============================================================================
 
 # UI surface / ink tokens. Kept in sync with the CSS custom properties below.
@@ -260,7 +264,7 @@ def _age_crude_effective_year(family, year, sex):
 
 
 # =============================================================================
-# 5. CHART THEMING + CACHED BUILDERS  (recolour to the Mark 2 palette)
+# 5. CHART THEMING + CACHED BUILDERS  (recolour to the dashboard palette)
 # =============================================================================
 
 def _recolor_named(fig, mapping):
@@ -342,8 +346,8 @@ def _theme(fig, is_map=False):
         legend=dict(bgcolor="rgba(0,0,0,0)"),
         # NOTE: do NOT override the figure margins here — each create_*() chart
         # tunes its own top/bottom margin to fit its title, horizontal legend
-        # and footer annotations. Forcing a small top margin made the title
-        # overlap the legend (Mark 2 bug).
+        # and footer annotations. Forcing a small top margin makes the title
+        # overlap the legend.
     )
     if is_map:
         fig.update_geos(
@@ -446,7 +450,7 @@ def _fig_agecrude(family, year, sex, countries):
 # =============================================================================
 
 app = Dash(__name__, suppress_callback_exceptions=True)
-app.title = "NCD Care Observatory · CS661 Group 5 · Mark 5"
+app.title = "Global Health Dashboard · Group 5"
 server = app.server
 
 app.index_string = """<!DOCTYPE html>
@@ -533,8 +537,6 @@ app.index_string = """<!DOCTYPE html>
         color:var(--text2); background:var(--panel2); border:1px solid var(--border);
         border-radius:999px; padding:6px 13px;
       }
-      .dot { width:8px; height:8px; border-radius:50%; background:var(--accent);
-             box-shadow:0 0 0 4px rgba(45,212,191,0.18); }
 
       .ctl-label { font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase;
                    color:var(--muted); display:block; margin-bottom:7px; }
@@ -781,8 +783,6 @@ def header():
             ]),
             html.Div(style={"display": "flex", "gap": "10px", "flexWrap": "wrap"},
                      children=[
-                html.Span([html.Span(className="dot"),
-                           "WHO Health Inequality Repository"], className="chip"),
                 html.Span("diabetes 1990–2022 · hypertension 1990–2019",
                           className="chip"),
                 html.Span("CS661 · Group 5", className="chip"),
@@ -836,8 +836,7 @@ app.layout = html.Div(
 
         html.Div(
             "WHO Health Inequality Data Repository (Health Care System & Access "
-            "module) · six NCD indicators, ~71k rows · Mark 5 UI · "
-            "CS661 Group 5",
+            f"module) · six NCD indicators, {len(map_df):,} rows · CS661 Group 5",
             style={"marginTop": "26px", "textAlign": "center",
                    "fontSize": "12px", "color": C["muted"]},
         ),
@@ -846,7 +845,7 @@ app.layout = html.Div(
 
 
 # =============================================================================
-# 8. FILTER REDUCER  (identical linked-state logic to Mark 1)
+# 8. FILTER REDUCER  (the single source of truth for all six views)
 # =============================================================================
 
 @app.callback(
@@ -1058,7 +1057,7 @@ def update_kpis(f):
 
 
 # =============================================================================
-# 11. VIEW CALLBACKS  (same logic as Mark 1, Mark 2 themed builders)
+# 11. VIEW CALLBACKS
 # =============================================================================
 
 @app.callback(
@@ -1283,10 +1282,18 @@ def update_age_crude(family, countries, filters):
 # 12. ENTRYPOINT
 # =============================================================================
 
+import os
+
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8050))
+
     print("=" * 70)
-    print("NCD Care Inequality Observatory — MARK 5 UI")
+    print("Global Health Dashboard — CS661 Group 5")
     print("=" * 70)
     print(f"Countries: {map_df['iso3'].nunique()} | Years: {YEAR_MIN}-{YEAR_MAX}")
-    print("Open http://127.0.0.1:8054/ in your browser.")
-    app.run(debug=True, port=8054)
+
+    app.run(
+        host="0.0.0.0",
+        port=port,
+        debug=False
+    )
