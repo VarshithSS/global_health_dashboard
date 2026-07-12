@@ -15,8 +15,8 @@ The interface (earlier UI iterations are kept in old_code/):
       region, income group, country, year),
     - a left navigation rail (instead of top tabs) that switches between the
       six analytical views,
-    - one cohesive dark chart theme with a colour-blind-safe categorical
-      palette and a branded sequential ramp for the choropleth.
+    - one cohesive light chart theme with a colour-blind-safe categorical
+      palette and a single-hue sequential ramp for the choropleth.
 
 This module owns everything the charts deliberately do not know about: the
 shared filter store, the cross-filter reducer, theming, caching, and layout. It
@@ -24,7 +24,7 @@ imports the pure create_*() chart functions and the shared label maps from
 `visualizations/`, which have no knowledge of Dash. Run with:
 
     python app.py
-    open http://127.0.0.1:8054/
+    open http://127.0.0.1:8050/        (override with PORT=… )
 """
 
 from functools import lru_cache
@@ -167,46 +167,58 @@ PREFERRED_COMPARISON_COUNTRIES = [
 # =============================================================================
 
 # UI surface / ink tokens. Kept in sync with the CSS custom properties below.
+# Charts render on `panel` (#ffffff) — that is the surface every palette below
+# was validated against.
 C = {
-    "bg":        "#080b12",
-    "panel":     "#111825",
-    "panel2":    "#0d1420",
-    "elev":      "#182234",
-    "border":    "#22304a",
-    "text":      "#eaf0fb",
-    "text2":     "#a7b4cc",
-    "muted":     "#67748d",
-    "accent":    "#2dd4bf",
-    "accent2":   "#3b82f6",
+    "bg":        "#f4f6fa",   # page plane
+    "panel":     "#ffffff",   # card surface — the chart surface
+    "panel2":    "#f1f4f9",   # inset surface (dropdown boxes, nav numerals)
+    "elev":      "#e9eef5",   # hover surface
+    "border":    "#dbe1ea",
+    "text":      "#0f172a",
+    "text2":     "#4a5568",
+    "muted":     "#7a8698",
+    "accent":    "#0d9488",   # teal, darkened for contrast on white
+    "accent2":   "#2563eb",
 }
 
-# Categorical palette — dataviz skill reference dark instance, in its
-# CVD-optimised slot order (blue, aqua, yellow, green, violet, red, magenta,
-# orange). Validated against surface #131a26: all pass band/chroma/contrast,
-# worst adjacent CVD in the 8–12 floor band → always paired with a legend.
+# Categorical palette — light instance, in the CVD-optimised slot order (blue,
+# aqua, yellow, green, violet, red, magenta, orange). Validated against the
+# white chart surface: band/chroma pass, worst adjacent CVD ΔE 24.2 (well clear
+# of the ≥12 target).
+#
+# Three slots (aqua 2.82, yellow 2.17, magenta 2.69) fall below 3:1 contrast on
+# white. That is intrinsic, not a bug to tune away: yellow has to stay *light*
+# to separate from green for protan viewers — darkening it to an ochre collapses
+# that pair to ΔE 2.1 (indistinguishable). We keep the CVD-safe hues and pay for
+# the contrast with a secondary encoding instead: `_outline_marks()` gives every
+# bar and marker a dark hairline edge, so a low-contrast fill is still visible
+# against white, and every multi-series chart carries a legend.
 CATEGORICAL = [
-    "#3987e5", "#199e70", "#c98500", "#008300",
-    "#9085e9", "#e66767", "#d55181", "#d95926",
+    "#2a78d6", "#1baf7a", "#eda100", "#008300",
+    "#4a3aa7", "#e34948", "#e87ba4", "#eb6834",
 ]
 
-# Branded sequential ramp for the choropleth: dark navy (near zero, recedes
-# toward the dark surface) → bright blue (high coverage, pops off the map).
+# Sequential ramp for the choropleth: one hue, light → dark. Pale (near zero,
+# recedes toward the white surface) → deep blue (high coverage).
 MAP_COLORSCALE = [
-    [0.00, "#0d366b"], [0.15, "#184f95"], [0.30, "#256abf"],
-    [0.45, "#3987e5"], [0.60, "#5598e7"], [0.75, "#86b6ef"],
-    [0.90, "#b7d3f6"], [1.00, "#e8f2fe"],
+    [0.00, "#cde2fb"], [0.15, "#b7d3f6"], [0.30, "#9ec5f4"],
+    [0.45, "#6da7ec"], [0.60, "#3987e5"], [0.75, "#256abf"],
+    [0.90, "#184f95"], [1.00, "#0d366b"],
 ]
 
 # Semantic colours for the treatment→control cascade (state, not identity):
-# treatment = neutral, leakage = bad, effective control = good.
+# treatment = neutral, leakage = bad, effective control = good. These are the
+# reserved status steps, never reused for a series; each bar is labelled, so
+# colour never carries the meaning alone.
 CASCADE_COLORS = {
-    "Treatment Coverage": "#3b82f6",        # neutral baseline
-    "Not Effectively Controlled": "#e5484d",  # leakage — bad
-    "Effective Control": "#30c88f",         # good outcome
+    "Treatment Coverage": "#2a78d6",          # neutral baseline
+    "Not Effectively Controlled": "#d03b3b",  # leakage — bad
+    "Effective Control": "#0ca30c",           # good outcome
 }
 
-# Sex uses the safest two-hue pair (blue / orange).
-SEX_COLORS = {"Female": "#3987e5", "Male": "#e0863f"}
+# Sex uses the safest two-hue pair (blue / orange) — CVD ΔE 96.7.
+SEX_COLORS = {"Female": "#2a78d6", "Male": "#eb6834"}
 
 FONT_STACK = ('Inter, system-ui, -apple-system, "Segoe UI", '
               'Roboto, Arial, sans-serif')
@@ -334,6 +346,27 @@ def _fix_footer_overlap(fig):
         fig.layout.margin.b = needed_b
 
 
+MARK_EDGE = "rgba(15,23,42,0.42)"
+
+
+def _outline_marks(fig):
+    """Give every bar and marker a dark hairline edge.
+
+    This is the secondary encoding that pays for the three CVD-safe categorical
+    hues that sit below 3:1 contrast on white (see CATEGORICAL). An outlined
+    mark stays visible against the surface no matter how light its fill is, so
+    a pale-yellow series can't dissolve into the background.
+    """
+    for tr in fig.data:
+        if tr.type == "bar":
+            tr.marker.line.color = MARK_EDGE
+            tr.marker.line.width = 1
+        elif (tr.type == "scatter" and tr.marker is not None
+                and "markers" in (tr.mode or "")):
+            tr.marker.line.color = MARK_EDGE
+            tr.marker.line.width = 1
+
+
 def _theme(fig, is_map=False):
     fig.update_layout(
         paper_bgcolor="rgba(0,0,0,0)",
@@ -352,11 +385,11 @@ def _theme(fig, is_map=False):
     if is_map:
         fig.update_geos(
             bgcolor="rgba(0,0,0,0)",
-            landcolor="#172032",
-            oceancolor="#0a1018",
-            lakecolor="#0a1018",
-            coastlinecolor=C["border"],
-            countrycolor="#0d1420",
+            landcolor="#e8ebf0",      # no-data land — neutral grey, so it can't
+            oceancolor="#f7fafd",     # be mistaken for the palest ramp step
+            lakecolor="#f7fafd",
+            coastlinecolor="#c2cad6",
+            countrycolor="#ffffff",
         )
         fig.update_coloraxes(
             colorscale=MAP_COLORSCALE,
@@ -366,15 +399,16 @@ def _theme(fig, is_map=False):
         )
     else:
         axis_style = dict(
-            gridcolor="#1b2740",
-            zerolinecolor="#22304a",
-            linecolor="#22304a",
+            gridcolor="#e6eaf0",
+            zerolinecolor="#d3dae4",
+            linecolor="#d3dae4",
             tickcolor=C["muted"],
             title_font_color=C["muted"],
             tickfont_color=C["muted"],
         )
         fig.update_xaxes(**axis_style)
         fig.update_yaxes(**axis_style)
+        _outline_marks(fig)
     _fix_footer_overlap(fig)
     return fig
 
@@ -465,10 +499,11 @@ app.index_string = """<!DOCTYPE html>
     {%css%}
     <style>
       :root {
-        --bg:#080b12; --panel:#111825; --panel2:#0d1420; --elev:#182234;
-        --border:#22304a; --border-soft:rgba(255,255,255,0.06);
-        --text:#eaf0fb; --text2:#a7b4cc; --muted:#67748d;
-        --accent:#2dd4bf; --accent2:#3b82f6;
+        --bg:#f4f6fa; --panel:#ffffff; --panel2:#f1f4f9; --elev:#e9eef5;
+        --border:#dbe1ea; --border-soft:rgba(15,23,42,0.06);
+        --text:#0f172a; --text2:#4a5568; --muted:#7a8698;
+        --accent:#0d9488; --accent2:#2563eb;
+        --shadow:0 1px 2px rgba(15,23,42,0.04), 0 2px 8px rgba(15,23,42,0.04);
       }
       * { box-sizing:border-box; }
       html,body { margin:0; padding:0; background:var(--bg); }
@@ -476,30 +511,37 @@ app.index_string = """<!DOCTYPE html>
         font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
         color:var(--text);
         background:
-          radial-gradient(1100px 620px at 82% -8%, rgba(45,212,191,0.10), transparent 60%),
-          radial-gradient(1000px 560px at 4% 0%, rgba(59,130,246,0.12), transparent 55%),
+          radial-gradient(1100px 620px at 82% -8%, rgba(13,148,136,0.07), transparent 60%),
+          radial-gradient(1000px 560px at 4% 0%, rgba(37,99,235,0.07), transparent 55%),
           var(--bg);
         -webkit-font-smoothing:antialiased;
       }
       ::-webkit-scrollbar { width:10px; height:10px; }
       ::-webkit-scrollbar-track { background:transparent; }
-      ::-webkit-scrollbar-thumb { background:var(--border); border-radius:6px; }
+      ::-webkit-scrollbar-thumb { background:#cbd3de; border-radius:6px; }
       ::-webkit-scrollbar-thumb:hover { background:var(--muted); }
 
+      /* On a light plane, cards separate from the page by a soft shadow rather
+       * than by being lighter than it. */
       .card {
-        background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0)) , var(--panel);
+        background:var(--panel);
         border:1px solid var(--border);
         border-radius:16px;
+        box-shadow:var(--shadow);
       }
 
       /* KPI tiles */
       .kpi {
         position:relative; overflow:hidden;
-        background:linear-gradient(180deg, rgba(255,255,255,0.025), rgba(255,255,255,0)), var(--panel);
+        background:var(--panel);
         border:1px solid var(--border); border-radius:16px; padding:18px 20px;
-        transition:transform .15s ease, border-color .15s ease;
+        box-shadow:var(--shadow);
+        transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease;
       }
-      .kpi:hover { transform:translateY(-2px); border-color:rgba(45,212,191,0.45); }
+      .kpi:hover {
+        transform:translateY(-2px); border-color:rgba(13,148,136,0.45);
+        box-shadow:0 2px 4px rgba(15,23,42,0.05), 0 8px 20px rgba(15,23,42,0.07);
+      }
       .kpi::before {
         content:""; position:absolute; left:0; top:0; bottom:0; width:3px;
         background:linear-gradient(180deg,var(--accent),var(--accent2));
@@ -518,8 +560,8 @@ app.index_string = """<!DOCTYPE html>
       }
       .nav-item:hover { background:var(--elev); transform:translateX(2px); }
       .nav-item.active {
-        background:linear-gradient(180deg, rgba(45,212,191,0.12), rgba(59,130,246,0.06)), var(--elev);
-        border-color:rgba(45,212,191,0.5);
+        background:linear-gradient(180deg, rgba(13,148,136,0.10), rgba(37,99,235,0.05)), var(--panel2);
+        border-color:rgba(13,148,136,0.45);
       }
       .nav-num {
         display:inline-flex; align-items:center; justify-content:center;
@@ -527,7 +569,7 @@ app.index_string = """<!DOCTYPE html>
         background:var(--panel2); border:1px solid var(--border); color:var(--muted);
         margin-right:11px; flex:0 0 auto;
       }
-      .nav-item.active .nav-num { background:var(--accent); color:#04211d; border-color:var(--accent); }
+      .nav-item.active .nav-num { background:var(--accent); color:#ffffff; border-color:var(--accent); }
       .nav-title { font-size:14px; font-weight:700; color:var(--text); }
       .nav-item.active .nav-title { color:var(--text); }
       .nav-desc { font-size:11.5px; color:var(--muted); margin-top:3px; line-height:1.35; }
@@ -542,55 +584,54 @@ app.index_string = """<!DOCTYPE html>
                    color:var(--muted); display:block; margin-bottom:7px; }
 
       .btn {
-        background:var(--panel2); color:var(--text2); border:1px solid var(--border);
+        background:var(--panel); color:var(--text2); border:1px solid var(--border);
         border-radius:9px; padding:9px 15px; font-size:13px; font-weight:600; cursor:pointer;
         font-family:inherit; transition:all .14s ease;
       }
-      .btn:hover { border-color:var(--accent); color:var(--text); }
-      .btn-accent { color:var(--accent); border-color:rgba(45,212,191,0.5); }
-      .btn-accent:hover { background:rgba(45,212,191,0.12); }
+      .btn:hover { border-color:var(--accent); color:var(--text); background:var(--panel2); }
+      .btn-accent { color:var(--accent); border-color:rgba(13,148,136,0.5); }
+      .btn-accent:hover { background:rgba(13,148,136,0.10); }
 
       /* Dash 4's Dropdown & Slider are themed entirely through --Dash-* custom
-       * properties (the light defaults make the box/text white on our dark
-       * bar). Redefining those tokens dark — with !important so they win no
-       * matter when Dash injects its own :root — themes every part of both
-       * controls at once: trigger box, menu, options, value text, slider
-       * track/thumb/marks, and the value tooltip. */
+       * properties. Dash's own defaults are already light, so these overrides
+       * are not fighting the theme — they exist to pull both controls onto *our*
+       * surfaces and accent, so the trigger box, menu, options, value text,
+       * slider track/thumb/marks and the value tooltip all match the rest of the
+       * command bar. !important so they win no matter when Dash injects its
+       * own :root. */
       :root {
-        --Dash-Stroke-Strong: #2a3a5a !important;
-        --Dash-Stroke-Weak: rgba(255,255,255,0.10) !important;
+        --Dash-Stroke-Strong: #c2cad6 !important;
+        --Dash-Stroke-Weak: rgba(15,23,42,0.10) !important;
         --Dash-Fill-Interactive-Strong: var(--accent) !important;
-        --Dash-Fill-Interactive-Weak: rgba(45,212,191,0.10) !important;
-        --Dash-Fill-Inverse-Strong: var(--panel2) !important;
+        --Dash-Fill-Interactive-Weak: rgba(13,148,136,0.10) !important;
+        --Dash-Fill-Inverse-Strong: var(--panel) !important;
         --Dash-Text-Primary: var(--text) !important;
         --Dash-Text-Strong: var(--text) !important;
         --Dash-Text-Weak: var(--text2) !important;
         --Dash-Text-Disabled: var(--muted) !important;
-        --Dash-Fill-Primary-Hover: rgba(255,255,255,0.06) !important;
-        --Dash-Fill-Primary-Active: rgba(45,212,191,0.18) !important;
-        --Dash-Fill-Disabled: var(--border) !important;
-        --Dash-Shading-Strong: rgba(0,0,0,0.55) !important;
-        --Dash-Shading-Weak: rgba(0,0,0,0.40) !important;
+        --Dash-Fill-Primary-Hover: rgba(15,23,42,0.05) !important;
+        --Dash-Fill-Primary-Active: rgba(13,148,136,0.14) !important;
+        --Dash-Fill-Disabled: var(--elev) !important;
+        --Dash-Shading-Strong: rgba(15,23,42,0.20) !important;
+        --Dash-Shading-Weak: rgba(15,23,42,0.10) !important;
         --Dash-Tooltip-Background-Color: var(--accent) !important;
         --Dash-Tooltip-Border-Color: var(--accent) !important;
       }
       /* Class-level fallbacks in case a surface uses a non-token background. */
       .dash-dropdown-trigger, .dash-dropdown-content {
-        background: var(--panel2) !important; border-color: var(--border) !important;
+        background: var(--panel) !important; border-color: var(--border) !important;
       }
       .dash-dropdown-value, .dash-dropdown-value-item,
       .dash-dropdown-value-count { color: var(--text) !important; }
       .dash-dropdown-placeholder { color: var(--muted) !important; }
       .dash-dropdown-option:hover { background: var(--elev) !important; }
-      /* Value tooltip (the always-visible year pill). Its background comes
-       * from --Dash-Fill-Inverse-Strong — the same token we darken for the
-       * dropdown box — so left alone it's dark text on a dark pill (invisible).
-       * Style the element directly: teal pill (fill covers the arrow), dark
-       * text. */
+      /* Value tooltip (the always-visible year pill): a filled teal pill (the
+       * fill also covers the arrow) with white text, so it reads as a selected
+       * value rather than as page chrome. */
       .dash-slider-tooltip {
         background-color: var(--accent) !important;
         fill: var(--accent) !important;
-        color: #04211d !important;
+        color: #ffffff !important;
         font-weight: 700 !important;
       }
 

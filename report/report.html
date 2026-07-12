@@ -356,7 +356,7 @@ handful of scalar parameters and returns a Plotly figure. None of them import Da
 know that a dashboard exists, or read global state. Each validates its own inputs
 and raises on an impossible selection rather than silently returning an empty chart.</p>
 <p>Above them, <code>app.py</code> supplies everything the charts deliberately do not
-know about: the shared filter state, the cross-filter logic, the dark theme, the
+know about: the shared filter state, the cross-filter logic, the light theme, the
 caching layer, and the layout. This separation is what allowed four sub-teams to work
 in parallel &mdash; the visualization developers could build and test chart functions
 against a CSV without the application existing, and the frontend developers could
@@ -424,22 +424,37 @@ the context against which the selected country should be judged.</p>
 </figure>
 
 <h3 class="sub" id="s-sys-visual">Visual Design and Accessibility</h3>
-<p>The interface uses one cohesive dark theme, applied to the charts <i>after</i>
-they are built, so the chart functions stay presentation-neutral. Three choices are
-worth recording:</p>
+<p>The interface uses one cohesive light theme, applied to the charts <i>after</i>
+they are built, so the chart functions stay presentation-neutral. Every palette below
+was validated against the surface the charts actually render on (white), rather than
+chosen by eye. Three choices are worth recording:</p>
 <ul>
   <li><b>Colour-blind-safe categorical palette.</b> The eight-colour series palette
       was chosen and ordered so that adjacent series remain distinguishable under
-      common colour-vision deficiencies; every categorical chart is additionally
-      paired with a legend rather than relying on colour alone.</li>
+      common colour-vision deficiencies &mdash; the worst adjacent pair separates by
+      &Delta;E 24.2 under protanopia, comfortably clear of the &ge;12 threshold. Every
+      categorical chart is additionally paired with a legend, so identity is never
+      carried by colour alone.
+      <br><b>The trade-off we accepted:</b> three of those eight hues (aqua, yellow,
+      magenta) fall below the 3:1 contrast floor against white. This is intrinsic
+      rather than an oversight &mdash; yellow has to stay <i>light</i> to separate
+      from green for red-blind viewers, and darkening it to an ochre collapses that
+      pair to &Delta;E 2.1, i.e. indistinguishable. We kept the colour-blind-safe hues
+      and bought back the contrast with a second channel instead: every bar and marker
+      carries a dark hairline edge, so a pale fill still reads against the white
+      surface.</li>
   <li><b>Semantic colour in the cascade.</b> Task 4 is the one view where colour
       encodes <i>state</i> rather than identity: treatment is a neutral blue,
       leakage is red (a loss), and effective control is green (the desired outcome).
-      Using the categorical palette here would have thrown away meaning.</li>
+      These are reserved status colours, never reused for a data series, and each bar
+      is labelled &mdash; so the colour reinforces the meaning rather than carrying it.
+      Using the categorical palette here would have thrown away that meaning.</li>
   <li><b>A sequential ramp for the map.</b> The choropleth uses a single-hue
-      dark-navy-to-bright-blue ramp on a fixed 0&ndash;100 domain, so that colours are
+      pale-to-deep blue ramp on a fixed 0&ndash;100 domain, so that colours are
       comparable across years and indicators &mdash; animating the year slider shows
-      real change, not a rescaled legend.</li>
+      real change, not a rescaled legend. Countries with no data are a neutral grey,
+      deliberately distinct from the palest step of the ramp, so &ldquo;no data&rdquo;
+      can never be misread as &ldquo;near zero&rdquo;.</li>
 </ul>
 
 <h3 class="sub" id="s-sys-perf">Performance</h3>
@@ -481,9 +496,9 @@ outlier, clicks it, and every other view is now about that country.</p>
 
 <figure>
   <img src="figures/task1_map.png" alt="Global coverage choropleth">
-  <figcaption>Diabetes treatment coverage (age-standardized), female, 2022. The
-  north&ndash;south gradient is immediate: Europe and the Americas are pale, sub-Saharan
-  Africa is uniformly dark.</figcaption>
+  <figcaption>Diabetes treatment coverage (age-standardized), female, 2022. Deeper
+  blue is higher coverage. The north&ndash;south gradient is immediate: Europe and the
+  Americas are saturated, sub-Saharan Africa is uniformly pale.</figcaption>
 </figure>
 
 <h4 class="subsub" id="t1-3">Observed Trends</h4>
@@ -514,9 +529,9 @@ outlier, clicks it, and every other view is now about that country.</p>
       means we are not looking at noise or at a handful of outliers but at a
       structural gradient.</li>
   <li>The single most important observation is what happens when the indicator is
-      switched from treatment to <i>effective control</i>: the entire world map gets
-      darker. A global treatment mean in the mid-40s becomes a global control mean in
-      the low-20s. Being treated and being controlled are demonstrably different
+      switched from treatment to <i>effective control</i>: the entire world map drains
+      of colour. A global treatment mean in the mid-40s becomes a global control mean
+      in the low-20s. Being treated and being controlled are demonstrably different
       achievements, which is precisely the gap Task 4 exists to measure.</li>
   <li>Even the best-performing country in the world controls only 57% of its
       hypertensive women. There is no country where this problem is solved.</li>
@@ -1182,7 +1197,7 @@ claim in this report to be checked against a chart with no gaps in it.</p>
     <tr><td>Mavilla Bharadwaja</td><td class="num">251110021</td>
         <td>Frontend Development</td>
         <td>Dashboard integration and layout; the shared filter store and cross-filter
-            reducer; KPI insight strip; dark theme and chart re-theming; this report.</td></tr>
+            reducer; KPI insight strip; light theme and chart re-theming; this report.</td></tr>
     <tr><td>Singampalli Sri Varshith</td><td class="num">251110074</td>
         <td>Frontend Development</td>
         <td>Navigation rail and view switching; the command bar controls; per-view control

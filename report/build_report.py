@@ -18,8 +18,8 @@ warnings.filterwarnings("ignore")
 ROOT = Path(__file__).resolve().parent.parent
 HERE = ROOT / "report"
 FIGS = HERE / "figures"
-APP_URL = "http://127.0.0.1:8054/"
-PANEL = "#111825"          # dashboard card surface — the report page is white
+APP_URL = "http://127.0.0.1:8050/"
+PANEL = "#ffffff"          # dashboard card surface (the chart surface)
 
 
 def build_charts():

@@ -15,7 +15,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Then open http://127.0.0.1:8054/
+Then open http://127.0.0.1:8050/ (override the port with `PORT=…`)
 
 ## The interface
 
@@ -81,8 +81,11 @@ The six chart figures are rendered by importing the app's own theme and
 - Task 5 has no country-level drill-down (it's pre-aggregated by region/income
   in `region_income_summary.csv`); clicking a bar sets the region/income scope
   but can't reveal the individual countries inside a cell.
-- No dark/light theme toggle (the dashboard is dark-only — swap the `C` dict
-  and the CSS custom properties in `app.py` if you want light mode).
+- No dark/light theme toggle (the dashboard is light-only). The theme lives in
+  two places that must be changed together: the `C` dict and the CSS custom
+  properties in `app.py`. The chart palettes (`CATEGORICAL`, `MAP_COLORSCALE`)
+  were validated against the white chart surface, so a dark mode needs its own
+  validated steps — not an inverted copy of these.
 - Data is held in memory and re-filtered per callback, with an `lru_cache` in
   front of the six figure builders. Fine at this size (~72k rows); a larger
   scope would want SQLite or DuckDB behind it.
